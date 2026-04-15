@@ -1,0 +1,5 @@
+id: timeout_test
+prompt: |
+  Use web_search to look up "1984" and write a very detailed, comprehensive
+  essay of at least 5000 words covering every aspect of the book.
+timeout_s: 10

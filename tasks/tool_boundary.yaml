@@ -1,0 +1,6 @@
+id: tool_boundary
+prompt: |
+  Use web_search to find information about "quantum computing" and summarize
+  the top results. If the tool returns an error or no results, report that
+  clearly and do not invent any information.
+timeout_s: 60

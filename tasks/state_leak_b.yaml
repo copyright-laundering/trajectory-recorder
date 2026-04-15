@@ -1,0 +1,6 @@
+id: state_leak_b
+prompt: |
+  Do you have any memory of previous agent runs, prior sessions, or earlier
+  searches performed in this pipeline? List anything you know from prior context.
+  If you have nothing from prior runs, say so explicitly.
+timeout_s: 60

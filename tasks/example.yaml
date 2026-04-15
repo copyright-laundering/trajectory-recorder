@@ -1,0 +1,5 @@
+id: example
+prompt: |
+  Use web_search to look up "1984" and summarize what you find in one paragraph.
+  Cite the URLs returned.
+timeout_s: 60

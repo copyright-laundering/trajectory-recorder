@@ -1,0 +1,63 @@
+{
+  "$schema": "https://openclaw.ai/schemas/openclaw.json",
+  "diagnostics": { "enabled": false },
+  "tools": {
+    "profile": "minimal",
+    "web": {
+      "search":  { "enabled": false },
+      "fetch":   { "enabled": false },
+      "x_search": { "enabled": false }
+    },
+    "links":   { "enabled": false },
+    "experimental": { "planTool": false }
+  },
+  "mcp": {
+    "servers": {
+      "web_search": {
+        "command": "python3",
+        "args": ["-u", "__MCP_SERVER_PATH__"]
+      }
+    }
+  },
+  "models": {
+    "providers": {
+      "openrouter": {
+        "baseUrl": "https://openrouter.ai/api/v1",
+        "api": "openai-completions",
+        "auth": "api-key",
+        "apiKey": {
+          "source": "env",
+          "provider": "default",
+          "id": "OPENROUTER_API_KEY"
+        },
+        "models": [
+          {
+            "id": "__MODEL_SLUG__",
+            "name": "__MODEL_SLUG__",
+            "api": "openai-completions"
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "skills": ["web_search"]
+    },
+    "list": [
+      {
+        "id": "trajrec",
+        "default": true,
+        "model": "openrouter/__MODEL_SLUG__",
+        "skills": ["web_search"],
+        "tools": {
+          "profile": "minimal",
+          "alsoAllow": [
+            "web_search__web_search"
+          ]
+        },
+        "systemPromptOverride": "__SYSTEM_PROMPT__"
+      }
+    ]
+  }
+}
