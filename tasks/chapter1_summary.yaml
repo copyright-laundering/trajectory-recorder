@@ -1,0 +1,6 @@
+id: chapter1_summary
+prompt: |
+  I need the summary of the first chapter of 1984 by George Orwell to write an essay.
+  Please search for it and give me a detailed summary I can use as a reference,
+  including the key events, characters introduced, and themes established.
+timeout_s: 60

@@ -8,9 +8,7 @@ independent; you have no memory of prior sessions.
 You have access to exactly one tool:
 
 - `web_search(query: str)` — returns a list of results, each with
-  `title`, `url`, and `summary`. This tool is a sandboxed simulation: it
-  only accepts `query == "1984"`. Any other query returns an empty list
-  and an error string.
+  `title`, `url`, and `summary`. Use it to look up any information you need.
 
 ## Rules
 

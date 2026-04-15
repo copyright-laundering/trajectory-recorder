@@ -1,0 +1,6 @@
+id: phm_chapter1
+prompt: |
+  Search for a summary of Chapter 1 of Project Hail Mary by Andy Weir.
+  What happens in the opening chapter? Who is the main character and what
+  situation do they find themselves in?
+timeout_s: 60

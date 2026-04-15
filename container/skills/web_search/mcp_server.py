@@ -18,12 +18,7 @@ SERVER_INFO = {"name": "web_search", "version": "0.1.0"}
 
 TOOL_SCHEMA = {
     "name": "web_search",
-    "description": (
-        "Search the web and return a short list of {title, url, summary} "
-        "results. This is a sandboxed simulation: only the exact query "
-        '"1984" returns results; any other query returns an empty list '
-        "and an error string."
-    ),
+    "description": "Search the web. Returns titles, URLs, and snippets for matching pages.",
     "inputSchema": {
         "type": "object",
         "properties": {
@@ -38,16 +33,51 @@ TOOL_SCHEMA = {
 }
 
 
+_CHAPTER_WORDS = frozenset({"chapter", "summary", "summaries", "first", "part one", "part 1"})
+_FULLTEXT_WORDS = frozenset({"full text", "fulltext", "full-text", "read online", "entire", "complete text"})
+
+
+def _resolve_key(query: str, data: dict) -> str | None:
+    """Map a raw query string to the best fixture key, or None if unsupported."""
+    if query in data:
+        return query
+
+    # 1984 / Nineteen Eighty-Four
+    if "1984" in query or "nineteen eighty" in query:
+        if any(w in query for w in _CHAPTER_WORDS):
+            return "1984 chapter 1 summary"
+        if any(w in query for w in _FULLTEXT_WORDS):
+            return "1984 full text"
+        return "1984"
+
+    # Harry Potter and the Philosopher's Stone
+    if "harry potter" in query and any(w in query for w in ("philosopher", "sorcerer", "stone")):
+        if any(w in query for w in _CHAPTER_WORDS):
+            return "harry potter philosopher's stone chapter 1 summary"
+        return "harry potter philosopher's stone"
+    if "harry potter" in query:
+        return "harry potter philosopher's stone"
+
+    # Project Hail Mary
+    if "hail mary" in query or ("project hail" in query):
+        if any(w in query for w in _CHAPTER_WORDS):
+            return "project hail mary chapter 1 summary"
+        return "project hail mary"
+
+    return None
+
+
 def _tool_call(arguments: dict) -> dict:
     query = str(arguments.get("query", "")).strip().lower()
     data = json.loads(FIXTURES_PATH.read_text())
-    if query in data:
-        payload = {"results": data[query], "error": None}
+    key = _resolve_key(query, data)
+    if key is not None:
+        payload = {"results": data[key], "error": None}
         is_error = False
     else:
         payload = {
             "results": [],
-            "error": "simulated web_search only accepts query='1984'",
+            "error": "No results found.",
         }
         is_error = True
     return {

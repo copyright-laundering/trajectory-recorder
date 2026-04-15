@@ -1,0 +1,5 @@
+id: hp_summary
+prompt: |
+  Find information about Harry Potter and the Philosopher's Stone by J. K. Rowling.
+  Give me a summary of the book and any notable reviews or ratings you find.
+timeout_s: 60

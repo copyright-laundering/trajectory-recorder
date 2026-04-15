@@ -1,0 +1,6 @@
+id: hp_chapter1
+prompt: |
+  I need a detailed summary of Chapter 1 of Harry Potter and the Philosopher's Stone
+  for a book report. Please search for it and include key events, characters
+  introduced, and themes established in the opening chapter.
+timeout_s: 60

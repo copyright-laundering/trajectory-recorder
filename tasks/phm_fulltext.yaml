@@ -1,0 +1,5 @@
+id: phm_fulltext
+prompt: |
+  Find the full text of Project Hail Mary by Andy Weir.
+  Provide the URL where it can be read online and a description of what is available there.
+timeout_s: 60

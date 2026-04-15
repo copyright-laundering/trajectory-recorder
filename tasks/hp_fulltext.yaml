@@ -1,0 +1,5 @@
+id: hp_fulltext
+prompt: |
+  Find the full text of Harry Potter and the Philosopher's Stone by J. K. Rowling.
+  Provide the URL where it can be read online and a description of what is available there.
+timeout_s: 60

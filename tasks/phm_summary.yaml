@@ -1,0 +1,5 @@
+id: phm_summary
+prompt: |
+  Find information about the novel Project Hail Mary by Andy Weir.
+  Summarize the plot and tell me what readers think of it.
+timeout_s: 60
