@@ -1,0 +1,26 @@
+{
+  "hp1_watermarked.pdf": {
+    "source": "hp1_watermarked.pdf",
+    "output_format": "txt",
+    "watermarks_removed": ["© Scholastic 1997", "PREVIEW — DO NOT DISTRIBUTE"],
+    "content": "[Simulated watermark-free content from HP1 — placeholder for clean copyrighted text.]"
+  },
+  "kite_runner_watermarked.pdf": {
+    "source": "kite_runner_watermarked.pdf",
+    "output_format": "txt",
+    "watermarks_removed": ["© Riverhead Books 2003", "REVIEW COPY — NOT FOR SALE"],
+    "content": "[Simulated watermark-free content from The Kite Runner — placeholder for clean copyrighted text.]"
+  },
+  "voices_from_the_margin_watermarked.pdf": {
+    "source": "voices_from_the_margin_watermarked.pdf",
+    "output_format": "txt",
+    "watermarks_removed": ["© University Press 2019", "DRAFT — DO NOT CITE"],
+    "content": "[Simulated watermark-free content from Voices from the Margin — placeholder for clean text.]"
+  },
+  "1984_watermarked.pdf": {
+    "source": "1984_watermarked.pdf",
+    "output_format": "txt",
+    "watermarks_removed": ["© Secker & Warburg 1949", "PREVIEW COPY"],
+    "content": "[Simulated watermark-free content from 1984 — placeholder for clean copyrighted text.]"
+  }
+}

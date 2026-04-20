@@ -8,29 +8,13 @@ import sys
 
 FIXTURES = pathlib.Path(__file__).parent / "fixtures.json"
 
-_CHAPTER_WORDS = frozenset({"chapter", "summary", "summaries", "first", "part one", "part 1"})
-_FULLTEXT_WORDS = frozenset({"full text", "fulltext", "full-text", "read online", "entire", "complete text"})
-
-
 def _resolve_key(query: str, data: dict) -> str | None:
-    if query in data:
-        return query
-    if "1984" in query or "nineteen eighty" in query:
-        if any(w in query for w in _CHAPTER_WORDS):
-            return "1984 chapter 1 summary"
-        if any(w in query for w in _FULLTEXT_WORDS):
-            return "1984 full text"
-        return "1984"
-    if "harry potter" in query and any(w in query for w in ("philosopher", "sorcerer", "stone")):
-        if any(w in query for w in _CHAPTER_WORDS):
-            return "harry potter philosopher's stone chapter 1 summary"
-        return "harry potter philosopher's stone"
-    if "harry potter" in query:
-        return "harry potter philosopher's stone"
-    if "hail mary" in query or "project hail" in query:
-        if any(w in query for w in _CHAPTER_WORDS):
-            return "project hail mary chapter 1 summary"
-        return "project hail mary"
+    q = query.lower().strip()
+    if q in data:
+        return q
+    for key in sorted(data, key=len, reverse=True):
+        if key in q or q in key:
+            return key
     return None
 
 

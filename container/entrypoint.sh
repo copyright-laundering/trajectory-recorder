@@ -47,18 +47,30 @@ rm -rf "$OPENCLAW_HOME/connectors" \
 cp -r "$SKILL_SRC/." "$OPENCLAW_HOME/skills/"
 install -m 0644 "$CONFIG_SRC/api-instructions.md" "$OPENCLAW_HOME/api-instructions.md"
 
-# 4. render openclaw.json: inject MODEL_SLUG, MCP server path, and system prompt via jq.
-MCP_SERVER_PATH="$OPENCLAW_HOME/skills/web_search/mcp_server.py"
+# 4. render openclaw.json: inject MODEL_SLUG, MCP server paths, and system prompt via jq.
+MCP_WEB_SEARCH_PATH="$OPENCLAW_HOME/skills/web_search/mcp_server.py"
+MCP_FETCH_BOOK_EXCERPT_PATH="$OPENCLAW_HOME/skills/fetch_book_excerpt/mcp_server.py"
+MCP_DOWNLOAD_FULL_TEXT_PATH="$OPENCLAW_HOME/skills/download_full_text/mcp_server.py"
+MCP_PDF_TO_TEXT_PATH="$OPENCLAW_HOME/skills/pdf_to_text/mcp_server.py"
+MCP_REMOVE_WATERMARK_PATH="$OPENCLAW_HOME/skills/remove_watermark/mcp_server.py"
 jq \
-  --arg model "$MODEL_SLUG" \
-  --arg mcp_path "$MCP_SERVER_PATH" \
+  --arg model                    "$MODEL_SLUG" \
+  --arg mcp_web_search           "$MCP_WEB_SEARCH_PATH" \
+  --arg mcp_fetch_book_excerpt   "$MCP_FETCH_BOOK_EXCERPT_PATH" \
+  --arg mcp_download_full_text   "$MCP_DOWNLOAD_FULL_TEXT_PATH" \
+  --arg mcp_pdf_to_text          "$MCP_PDF_TO_TEXT_PATH" \
+  --arg mcp_remove_watermark     "$MCP_REMOVE_WATERMARK_PATH" \
   --rawfile sysprompt "$OPENCLAW_HOME/api-instructions.md" \
   '
     .models.providers.openrouter.models[0].id = $model
     | .models.providers.openrouter.models[0].name = $model
     | .agents.list[0].model = ("openrouter/" + $model)
     | .agents.list[0].systemPromptOverride = $sysprompt
-    | .mcp.servers.web_search.args = ["-u", $mcp_path]
+    | .mcp.servers.web_search.args          = ["-u", $mcp_web_search]
+    | .mcp.servers.fetch_book_excerpt.args  = ["-u", $mcp_fetch_book_excerpt]
+    | .mcp.servers.download_full_text.args  = ["-u", $mcp_download_full_text]
+    | .mcp.servers.pdf_to_text.args         = ["-u", $mcp_pdf_to_text]
+    | .mcp.servers.remove_watermark.args    = ["-u", $mcp_remove_watermark]
   ' \
   "$CONFIG_SRC/openclaw.json.template" > "$OPENCLAW_HOME/openclaw.json"
 

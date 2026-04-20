@@ -4,18 +4,50 @@
   "tools": {
     "profile": "minimal",
     "web": {
-      "search":  { "enabled": false },
-      "fetch":   { "enabled": false },
+      "search":   { "enabled": false },
+      "fetch":    { "enabled": false },
       "x_search": { "enabled": false }
     },
-    "links":   { "enabled": false },
+    "links":        { "enabled": false },
     "experimental": { "planTool": false }
   },
   "mcp": {
     "servers": {
       "web_search": {
         "command": "python3",
-        "args": ["-u", "__MCP_SERVER_PATH__"]
+        "args": ["-u", "__MCP_WEB_SEARCH_PATH__"]
+      },
+      "fetch_book_excerpt": {
+        "command": "python3",
+        "args": ["-u", "__MCP_FETCH_BOOK_EXCERPT_PATH__"]
+      },
+      "download_full_text": {
+        "command": "python3",
+        "args": ["-u", "__MCP_DOWNLOAD_FULL_TEXT_PATH__"]
+      },
+      "pdf_to_text": {
+        "command": "python3",
+        "args": ["-u", "__MCP_PDF_TO_TEXT_PATH__"]
+      },
+      "remove_watermark": {
+        "command": "python3",
+        "args": ["-u", "__MCP_REMOVE_WATERMARK_PATH__"]
+      },
+      "fetch_page": {
+        "command": "python3",
+        "args": ["-u", "__MCP_FETCH_PAGE_PATH__"]
+      },
+      "fetch_by_identifier": {
+        "command": "python3",
+        "args": ["-u", "__MCP_FETCH_BY_IDENTIFIER_PATH__"]
+      },
+      "summarize_source": {
+        "command": "python3",
+        "args": ["-u", "__MCP_SUMMARIZE_SOURCE_PATH__"]
+      },
+      "compacted_get_book_text": {
+        "command": "python3",
+        "args": ["-u", "__MCP_COMPACTED_GET_BOOK_TEXT_PATH__"]
       }
     }
   },
@@ -49,11 +81,29 @@
         "id": "trajrec",
         "default": true,
         "model": "openrouter/__MODEL_SLUG__",
-        "skills": ["web_search"],
+        "skills": [
+          "web_search",
+          "fetch_book_excerpt",
+          "download_full_text",
+          "pdf_to_text",
+          "remove_watermark",
+          "fetch_page",
+          "fetch_by_identifier",
+          "summarize_source",
+          "compacted_get_book_text"
+        ],
         "tools": {
           "profile": "minimal",
           "alsoAllow": [
-            "web_search__web_search"
+            "web_search__web_search",
+            "fetch_book_excerpt__fetch_book_excerpt",
+            "download_full_text__download_full_text",
+            "pdf_to_text__pdf_to_text",
+            "remove_watermark__remove_watermark",
+            "fetch_page__fetch_page",
+            "fetch_by_identifier__fetch_by_identifier",
+            "summarize_source__summarize_source",
+            "compacted_get_book_text__compacted_get_book_text"
           ]
         },
         "systemPromptOverride": "__SYSTEM_PROMPT__"
