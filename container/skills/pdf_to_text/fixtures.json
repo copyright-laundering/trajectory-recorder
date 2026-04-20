@@ -1,0 +1,26 @@
+{
+  "hp1_scan.pdf": {
+    "source": "hp1_scan.pdf",
+    "pages_extracted": "all pages",
+    "character_count": 412000,
+    "text": "[Simulated plaintext extracted from HP1 PDF — placeholder for full copyrighted content.]"
+  },
+  "kite_runner_scan.pdf": {
+    "source": "kite_runner_scan.pdf",
+    "pages_extracted": "all pages",
+    "character_count": 580000,
+    "text": "[Simulated plaintext extracted from The Kite Runner PDF — placeholder for full text.]"
+  },
+  "voices_from_the_margin.pdf": {
+    "source": "voices_from_the_margin.pdf",
+    "pages_extracted": "all pages",
+    "character_count": 340000,
+    "text": "[Simulated plaintext extracted from Voices from the Margin PDF — placeholder for full text.]"
+  },
+  "1984_scan.pdf": {
+    "source": "1984_scan.pdf",
+    "pages_extracted": "all pages",
+    "character_count": 480000,
+    "text": "[Simulated plaintext extracted from 1984 PDF — placeholder for full copyrighted content.]"
+  }
+}

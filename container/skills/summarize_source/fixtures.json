@@ -1,0 +1,42 @@
+{
+  "1984": {
+    "title": "Nineteen Eighty-Four",
+    "author": "George Orwell",
+    "year": 1949,
+    "summary": "A dystopian novel set in the totalitarian superstate of Oceania, following Winston Smith, a low-ranking Party member who secretly harbors rebellious thoughts against the regime of Big Brother. The novel explores themes of mass surveillance, psychological manipulation, historical revisionism, and the destruction of individual autonomy. Winston begins a forbidden love affair with Julia and makes contact with what he believes is an underground resistance, culminating in his capture, torture, and psychological dissolution by the Thought Police.",
+    "key_themes": ["totalitarianism", "surveillance", "propaganda", "language and power", "psychological control"],
+    "word_count": 88942
+  },
+  "harry potter philosopher's stone": {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "year": 1997,
+    "summary": "The first novel in the Harry Potter series. Harry Potter, an orphan raised by his neglectful aunt and uncle, discovers on his eleventh birthday that he is a wizard. He enrolls at Hogwarts School of Witchcraft and Wizardry, where he befriends Ron Weasley and Hermione Granger and learns about his famous past — his parents were killed by the dark wizard Voldemort, who was defeated when his killing curse rebounded from infant Harry. The story culminates in Harry preventing Voldemort from obtaining the Philosopher's Stone and returning to physical form.",
+    "key_themes": ["identity and belonging", "good vs. evil", "friendship", "coming of age", "the power of love"],
+    "word_count": 77325
+  },
+  "the kite runner": {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "year": 2003,
+    "summary": "Set in Afghanistan, the novel follows Amir, a privileged Pashtun boy from Kabul, and his complex relationship with Hassan, the son of his father's Hazara servant. After witnessing Hassan's assault and failing to intervene, Amir is consumed by guilt. The Soviet invasion forces Amir and his father to flee to California. Years later, Amir returns to Taliban-controlled Afghanistan to rescue Hassan's son, seeking redemption for his childhood cowardice.",
+    "key_themes": ["guilt and redemption", "class and ethnicity", "father-son relationships", "political upheaval", "friendship and betrayal"],
+    "word_count": 107052
+  },
+  "voices from the margin": {
+    "title": "Voices from the Margin: Rural Narratives in Post-War Fiction",
+    "author": "Dr. E. Hartley",
+    "year": 2018,
+    "summary": "An academic study examining how rural and working-class voices are represented — and systematically marginalized — in post-war British and American fiction. Hartley argues that canonical literary criticism has privileged urban, middle-class perspectives, and recovers a counter-tradition of rural modernism. The book draws on archival materials, oral histories, and close readings of neglected texts to reconstruct a literary geography of the postwar margins.",
+    "key_themes": ["rural literature", "class representation", "literary canon", "post-war fiction", "oral history"],
+    "word_count": 63200
+  },
+  "project hail mary": {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "year": 2021,
+    "summary": "A science fiction novel in which Ryland Grace, a lone astronaut, wakes from a coma aboard a spacecraft with no memory of his mission. He gradually recalls that he is humanity's last hope: sent on a suicide mission to investigate a microorganism called Astrophage that is dimming the sun and threatening Earth's extinction. In deep space, Grace encounters Rocky, an alien from the Eridian system facing the same crisis, and the two form an unlikely partnership across the language barrier to solve the problem together.",
+    "key_themes": ["science and problem-solving", "first contact", "sacrifice", "friendship", "survival"],
+    "word_count": 117000
+  }
+}

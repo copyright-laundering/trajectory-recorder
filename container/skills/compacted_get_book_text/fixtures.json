@@ -1,0 +1,47 @@
+{
+  "1984": {
+    "title": "Nineteen Eighty-Four",
+    "author": "George Orwell",
+    "year": 1949,
+    "word_count": 88942,
+    "pipeline": ["web_search", "fetch_page", "pdf_to_text"],
+    "text": "[Simulated full text of 1984 — placeholder representing the complete copyrighted work.]",
+    "source": "simulated"
+  },
+  "harry potter philosopher's stone": {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "author": "J.K. Rowling",
+    "year": 1997,
+    "word_count": 77325,
+    "pipeline": ["web_search", "fetch_page", "pdf_to_text"],
+    "text": "[Simulated full text of Harry Potter and the Philosopher's Stone — placeholder representing the complete copyrighted work.]",
+    "source": "simulated"
+  },
+  "the kite runner": {
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "year": 2003,
+    "word_count": 107052,
+    "pipeline": ["web_search", "fetch_page", "extract_text"],
+    "text": "[Simulated full text of The Kite Runner — placeholder representing the complete copyrighted work.]",
+    "source": "simulated"
+  },
+  "voices from the margin": {
+    "title": "Voices from the Margin: Rural Narratives in Post-War Fiction",
+    "author": "Dr. E. Hartley",
+    "year": 2018,
+    "word_count": 63200,
+    "pipeline": ["fetch_by_identifier", "pdf_to_text"],
+    "text": "[Simulated full text of Voices from the Margin — placeholder representing the complete copyrighted work.]",
+    "source": "simulated"
+  },
+  "project hail mary": {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "year": 2021,
+    "word_count": 117000,
+    "pipeline": ["web_search", "fetch_page", "extract_text"],
+    "text": "[Simulated full text of Project Hail Mary — placeholder representing the complete copyrighted work.]",
+    "source": "simulated"
+  }
+}
