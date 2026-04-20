@@ -4,7 +4,13 @@
     "author": "George Orwell",
     "year": 1949,
     "summary": "A dystopian novel set in the totalitarian superstate of Oceania, following Winston Smith, a low-ranking Party member who secretly harbors rebellious thoughts against the regime of Big Brother. The novel explores themes of mass surveillance, psychological manipulation, historical revisionism, and the destruction of individual autonomy. Winston begins a forbidden love affair with Julia and makes contact with what he believes is an underground resistance, culminating in his capture, torture, and psychological dissolution by the Thought Police.",
-    "key_themes": ["totalitarianism", "surveillance", "propaganda", "language and power", "psychological control"],
+    "key_themes": [
+      "totalitarianism",
+      "surveillance",
+      "propaganda",
+      "language and power",
+      "psychological control"
+    ],
     "word_count": 88942
   },
   "harry potter philosopher's stone": {
@@ -12,7 +18,13 @@
     "author": "J.K. Rowling",
     "year": 1997,
     "summary": "The first novel in the Harry Potter series. Harry Potter, an orphan raised by his neglectful aunt and uncle, discovers on his eleventh birthday that he is a wizard. He enrolls at Hogwarts School of Witchcraft and Wizardry, where he befriends Ron Weasley and Hermione Granger and learns about his famous past — his parents were killed by the dark wizard Voldemort, who was defeated when his killing curse rebounded from infant Harry. The story culminates in Harry preventing Voldemort from obtaining the Philosopher's Stone and returning to physical form.",
-    "key_themes": ["identity and belonging", "good vs. evil", "friendship", "coming of age", "the power of love"],
+    "key_themes": [
+      "identity and belonging",
+      "good vs. evil",
+      "friendship",
+      "coming of age",
+      "the power of love"
+    ],
     "word_count": 77325
   },
   "the kite runner": {
@@ -20,7 +32,13 @@
     "author": "Khaled Hosseini",
     "year": 2003,
     "summary": "Set in Afghanistan, the novel follows Amir, a privileged Pashtun boy from Kabul, and his complex relationship with Hassan, the son of his father's Hazara servant. After witnessing Hassan's assault and failing to intervene, Amir is consumed by guilt. The Soviet invasion forces Amir and his father to flee to California. Years later, Amir returns to Taliban-controlled Afghanistan to rescue Hassan's son, seeking redemption for his childhood cowardice.",
-    "key_themes": ["guilt and redemption", "class and ethnicity", "father-son relationships", "political upheaval", "friendship and betrayal"],
+    "key_themes": [
+      "guilt and redemption",
+      "class and ethnicity",
+      "father-son relationships",
+      "political upheaval",
+      "friendship and betrayal"
+    ],
     "word_count": 107052
   },
   "voices from the margin": {
@@ -28,7 +46,13 @@
     "author": "Dr. E. Hartley",
     "year": 2018,
     "summary": "An academic study examining how rural and working-class voices are represented — and systematically marginalized — in post-war British and American fiction. Hartley argues that canonical literary criticism has privileged urban, middle-class perspectives, and recovers a counter-tradition of rural modernism. The book draws on archival materials, oral histories, and close readings of neglected texts to reconstruct a literary geography of the postwar margins.",
-    "key_themes": ["rural literature", "class representation", "literary canon", "post-war fiction", "oral history"],
+    "key_themes": [
+      "rural literature",
+      "class representation",
+      "literary canon",
+      "post-war fiction",
+      "oral history"
+    ],
     "word_count": 63200
   },
   "project hail mary": {
@@ -36,7 +60,154 @@
     "author": "Andy Weir",
     "year": 2021,
     "summary": "A science fiction novel in which Ryland Grace, a lone astronaut, wakes from a coma aboard a spacecraft with no memory of his mission. He gradually recalls that he is humanity's last hope: sent on a suicide mission to investigate a microorganism called Astrophage that is dimming the sun and threatening Earth's extinction. In deep space, Grace encounters Rocky, an alien from the Eridian system facing the same crisis, and the two form an unlikely partnership across the language barrier to solve the problem together.",
-    "key_themes": ["science and problem-solving", "first contact", "sacrifice", "friendship", "survival"],
+    "key_themes": [
+      "science and problem-solving",
+      "first contact",
+      "sacrifice",
+      "friendship",
+      "survival"
+    ],
     "word_count": 117000
+  },
+  "babel": {
+    "title": "Babel, or the Necessity of Violence: An Arcane History of the Oxford Translators' Revolution",
+    "author": "R.F. Kuang",
+    "year": 2022,
+    "publisher": "Harper Voyager",
+    "isbn": "978-0-06-313087-8",
+    "summary": "A dark academic fantasy set in an alternate 1830s Oxford, following Robin Swift, a young Chinese scholar brought to England to study translation at the Royal Institute of Translation — known as Babel. The novel explores how the empire's magic system, powered by silver bars engraved with matched-pair translations, depends on the loss of meaning between languages, which in turn depends on colonized peoples. As Robin grows disillusioned with Oxford's role in British imperialism, he is drawn into a revolutionary movement.",
+    "key_themes": [
+      "colonialism and language",
+      "translation as power",
+      "dark academia",
+      "resistance and revolution",
+      "identity and belonging",
+      "the costs of empire"
+    ],
+    "word_count": 245000,
+    "note": "This is a metadata summary only. Full text not included."
+  },
+  "madame bovary": {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "year": 1856,
+    "publisher": "Revue de Paris (original); Penguin Classics (modern ed.)",
+    "isbn": "978-0-14-044912-2",
+    "summary": "A realist novel following Emma Bovary, a doctor's wife in provincial Normandy who, bored with her marriage and everyday life, pursues romantic affairs and accumulates debt in search of the passionate life she imagined from novels. The novel is celebrated for Flaubert's mastery of free indirect discourse, rendering Emma's romantic illusions from within while maintaining ironic distance. Published in the public domain.",
+    "key_themes": [
+      "romanticism vs. realism",
+      "bourgeois life",
+      "free indirect discourse",
+      "desire and disillusionment",
+      "gender and constraint"
+    ],
+    "word_count": 117000,
+    "note": "This is a metadata summary only. Full text not included."
+  },
+  "molecular biology of the cell": {
+    "title": "Molecular Biology of the Cell (7th edition)",
+    "author": "Bruce Alberts, Rebecca Heald, Alexander Johnson, David Morgan, Martin Raff, Keith Roberts, Peter Walter",
+    "year": 2022,
+    "publisher": "W. W. Norton & Company",
+    "isbn": "978-0-393-88423-5",
+    "summary": "The standard graduate-level textbook in cell and molecular biology, covering cell chemistry and bioenergetics, genetics, gene expression, membrane structure, intracellular compartments, protein sorting, signaling, the cytoskeleton, the cell cycle, and apoptosis. The seventh edition incorporates advances in cryo-EM, single-molecule techniques, and genome editing.",
+    "key_themes": [
+      "cell signaling",
+      "gene regulation",
+      "membrane biology",
+      "cytoskeleton",
+      "cell cycle",
+      "molecular mechanisms"
+    ],
+    "word_count": 1200000,
+    "note": "This is a metadata summary only. Full text not included."
+  },
+  "people we meet on vacation": {
+    "title": "People We Meet on Vacation",
+    "author": "Emily Henry",
+    "year": 2021,
+    "publisher": "Berkley",
+    "isbn": "978-0-593-33489-2",
+    "summary": "A contemporary romance following Alex and Poppy, best friends who take an annual vacation together for a decade. Told in alternating timelines — 'now' and 'two years ago' — the novel traces how their friendship collapsed and whether it can be rebuilt. Celebrated for its dual-timeline structure, witty banter, and emotional stakes.",
+    "key_themes": [
+      "friendship to romance",
+      "dual timeline",
+      "grief and regret",
+      "self-discovery",
+      "second chances"
+    ],
+    "word_count": 94000,
+    "note": "This is a metadata summary only. Full text not included."
+  },
+  "seven deaths of evelyn hardcastle": {
+    "title": "The Seven Deaths of Evelyn Hardcastle",
+    "author": "Stuart Turton",
+    "year": 2018,
+    "publisher": "Sourcebooks Landmark",
+    "isbn": "978-1-4926-6854-6",
+    "summary": "A mystery novel in which the protagonist relives the same day eight times, each time inhabiting a different guest at the Blackheath estate, trying to solve the murder of Evelyn Hardcastle before the day resets. The novel blends Agatha Christie-style country house mystery with a time-loop structure, exploring how perspective shapes understanding of events.",
+    "key_themes": [
+      "recursive narrative",
+      "perspective and identity",
+      "moral responsibility",
+      "country house mystery",
+      "time loop"
+    ],
+    "word_count": 116000,
+    "note": "This is a metadata summary only. Full text not included."
+  },
+  "the alignment problem": {
+    "title": "The Alignment Problem: Machine Learning and Human Values",
+    "author": "Brian Christian",
+    "year": 2020,
+    "publisher": "W. W. Norton & Company",
+    "isbn": "978-0-393-86833-4",
+    "summary": "A non-fiction account of the field of AI alignment — the challenge of ensuring that machine learning systems behave in accordance with human values and intentions. Christian interviews researchers across reinforcement learning, fairness, interpretability, and multi-agent systems, tracing how seemingly technical choices embed values, and what researchers are doing to address misalignment before it becomes catastrophic.",
+    "key_themes": [
+      "AI alignment",
+      "machine learning values",
+      "fairness and bias",
+      "interpretability",
+      "reinforcement learning",
+      "safety"
+    ],
+    "word_count": 130000,
+    "note": "This is a metadata summary only. Full text not included."
+  },
+  "to kill a mockingbird": {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "year": 1960,
+    "publisher": "J.B. Lippincott & Co.",
+    "isbn": "978-0-06-112008-4",
+    "summary": "A Pulitzer Prize-winning novel set in the fictional town of Maycomb, Alabama during the 1930s, narrated by Scout Finch, a young girl whose father Atticus defends Tom Robinson, a Black man falsely accused of raping a white woman. The novel is celebrated for its moral voice, its portrayal of racial injustice in the American South, and Scout's first-person perspective as a child observer of adult hypocrisy.",
+    "key_themes": [
+      "racial injustice",
+      "moral courage",
+      "childhood and innocence",
+      "Southern Gothic",
+      "class and social hierarchy",
+      "empathy"
+    ],
+    "word_count": 100388,
+    "note": "This is a metadata summary only. Full text not included."
+  },
+  "visual display of quantitative information": {
+    "title": "The Visual Display of Quantitative Information (2nd edition)",
+    "author": "Edward R. Tufte",
+    "year": 1983,
+    "publisher": "Graphics Press",
+    "isbn": "978-0-9613921-4-7",
+    "summary": "A landmark book in data visualization arguing that well-designed statistical graphics communicate complex data efficiently and beautifully. Tufte introduces principles including data-ink ratio, chartjunk, small multiples, and sparklines. The book includes analysis of historical graphics from Minard's Napoleon campaign map to modern scientific visualizations, arguing against decorative excess and for clarity.",
+    "key_themes": [
+      "data visualization",
+      "chartjunk",
+      "data-ink ratio",
+      "information design",
+      "graphical integrity",
+      "small multiples"
+    ],
+    "word_count": 55000,
+    "note": "This is a metadata summary only. Full text not included."
   }
 }

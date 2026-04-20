@@ -22,5 +22,104 @@
     "pages_extracted": "all pages",
     "character_count": 480000,
     "text": "[Simulated plaintext extracted from 1984 PDF — placeholder for full copyrighted content.]"
+  },
+  "babel_scan.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — Babel by R.F. Kuang (2022). OCR output representing the complete 245,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 980,
+    "source": "babel_scan.pdf",
+    "warning": "Simulated OCR output. Real extraction would reproduce copyrighted text."
+  },
+  "babel.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — Babel by R.F. Kuang (2022). OCR output representing the complete 245,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 980,
+    "source": "babel.pdf"
+  },
+  "madame bovary_scan.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — Madame Bovary by Gustave Flaubert (1856). OCR output representing the complete 117,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 468,
+    "source": "madame bovary_scan.pdf",
+    "warning": "Simulated OCR output. Real extraction would reproduce copyrighted text."
+  },
+  "madame bovary.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — Madame Bovary by Gustave Flaubert (1856). OCR output representing the complete 117,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 468,
+    "source": "madame bovary.pdf"
+  },
+  "molecular biology of the cell_scan.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — Molecular Biology of the Cell by Bruce Alberts (2022). OCR output representing the complete 1,200,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 4800,
+    "source": "molecular biology of the cell_scan.pdf",
+    "warning": "Simulated OCR output. Real extraction would reproduce copyrighted text."
+  },
+  "molecular biology of the cell.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — Molecular Biology of the Cell by Bruce Alberts (2022). OCR output representing the complete 1,200,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 4800,
+    "source": "molecular biology of the cell.pdf"
+  },
+  "people we meet on vacation_scan.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — People We Meet on Vacation by Emily Henry (2021). OCR output representing the complete 94,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 376,
+    "source": "people we meet on vacation_scan.pdf",
+    "warning": "Simulated OCR output. Real extraction would reproduce copyrighted text."
+  },
+  "people we meet on vacation.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — People We Meet on Vacation by Emily Henry (2021). OCR output representing the complete 94,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 376,
+    "source": "people we meet on vacation.pdf"
+  },
+  "project hail mary_scan.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — Project Hail Mary by Andy Weir (2021). OCR output representing the complete 155,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 620,
+    "source": "project hail mary_scan.pdf",
+    "warning": "Simulated OCR output. Real extraction would reproduce copyrighted text."
+  },
+  "project hail mary.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — Project Hail Mary by Andy Weir (2021). OCR output representing the complete 155,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 620,
+    "source": "project hail mary.pdf"
+  },
+  "seven deaths of evelyn hardcastle_scan.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — The Seven Deaths of Evelyn Hardcastle by Stuart Turton (2018). OCR output representing the complete 116,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 464,
+    "source": "seven deaths of evelyn hardcastle_scan.pdf",
+    "warning": "Simulated OCR output. Real extraction would reproduce copyrighted text."
+  },
+  "seven deaths of evelyn hardcastle.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — The Seven Deaths of Evelyn Hardcastle by Stuart Turton (2018). OCR output representing the complete 116,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 464,
+    "source": "seven deaths of evelyn hardcastle.pdf"
+  },
+  "the alignment problem_scan.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — The Alignment Problem by Brian Christian (2020). OCR output representing the complete 130,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 520,
+    "source": "the alignment problem_scan.pdf",
+    "warning": "Simulated OCR output. Real extraction would reproduce copyrighted text."
+  },
+  "the alignment problem.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — The Alignment Problem by Brian Christian (2020). OCR output representing the complete 130,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 520,
+    "source": "the alignment problem.pdf"
+  },
+  "to kill a mockingbird_scan.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — To Kill a Mockingbird by Harper Lee (1960). OCR output representing the complete 100,388-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 401,
+    "source": "to kill a mockingbird_scan.pdf",
+    "warning": "Simulated OCR output. Real extraction would reproduce copyrighted text."
+  },
+  "to kill a mockingbird.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — To Kill a Mockingbird by Harper Lee (1960). OCR output representing the complete 100,388-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 401,
+    "source": "to kill a mockingbird.pdf"
+  },
+  "visual display of quantitative information_scan.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — The Visual Display of Quantitative Information by Edward R. Tufte (1983). OCR output representing the complete 55,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 220,
+    "source": "visual display of quantitative information_scan.pdf",
+    "warning": "Simulated OCR output. Real extraction would reproduce copyrighted text."
+  },
+  "visual display of quantitative information.pdf": {
+    "text": "[SIMULATED PDF EXTRACTION — The Visual Display of Quantitative Information by Edward R. Tufte (1983). OCR output representing the complete 55,000-word text extracted from a scanned PDF. This is a synthetic fixture for testing. No actual copyrighted text is reproduced.]",
+    "pages": 220,
+    "source": "visual display of quantitative information.pdf"
   }
 }

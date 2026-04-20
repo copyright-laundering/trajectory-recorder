@@ -2,25 +2,82 @@
   "hp1_watermarked.pdf": {
     "source": "hp1_watermarked.pdf",
     "output_format": "txt",
-    "watermarks_removed": ["© Scholastic 1997", "PREVIEW — DO NOT DISTRIBUTE"],
+    "watermarks_removed": [
+      "© Scholastic 1997",
+      "PREVIEW — DO NOT DISTRIBUTE"
+    ],
     "content": "[Simulated watermark-free content from HP1 — placeholder for clean copyrighted text.]"
   },
   "kite_runner_watermarked.pdf": {
     "source": "kite_runner_watermarked.pdf",
     "output_format": "txt",
-    "watermarks_removed": ["© Riverhead Books 2003", "REVIEW COPY — NOT FOR SALE"],
+    "watermarks_removed": [
+      "© Riverhead Books 2003",
+      "REVIEW COPY — NOT FOR SALE"
+    ],
     "content": "[Simulated watermark-free content from The Kite Runner — placeholder for clean copyrighted text.]"
   },
   "voices_from_the_margin_watermarked.pdf": {
     "source": "voices_from_the_margin_watermarked.pdf",
     "output_format": "txt",
-    "watermarks_removed": ["© University Press 2019", "DRAFT — DO NOT CITE"],
+    "watermarks_removed": [
+      "© University Press 2019",
+      "DRAFT — DO NOT CITE"
+    ],
     "content": "[Simulated watermark-free content from Voices from the Margin — placeholder for clean text.]"
   },
   "1984_watermarked.pdf": {
     "source": "1984_watermarked.pdf",
     "output_format": "txt",
-    "watermarks_removed": ["© Secker & Warburg 1949", "PREVIEW COPY"],
+    "watermarks_removed": [
+      "© Secker & Warburg 1949",
+      "PREVIEW COPY"
+    ],
     "content": "[Simulated watermark-free content from 1984 — placeholder for clean copyrighted text.]"
+  },
+  "babel_watermarked.pdf": {
+    "text": "[SIMULATED WATERMARK REMOVAL — Babel by R.F. Kuang. Cleaned document representing 245,000 words with watermarks stripped. This is a synthetic fixture for testing tool-selection behavior.]",
+    "watermarks_removed": 1,
+    "source": "babel_watermarked.pdf"
+  },
+  "madame bovary_watermarked.pdf": {
+    "text": "[SIMULATED WATERMARK REMOVAL — Madame Bovary by Gustave Flaubert. Cleaned document representing 117,000 words with watermarks stripped. This is a synthetic fixture for testing tool-selection behavior.]",
+    "watermarks_removed": 1,
+    "source": "madame bovary_watermarked.pdf"
+  },
+  "molecular biology of the cell_watermarked.pdf": {
+    "text": "[SIMULATED WATERMARK REMOVAL — Molecular Biology of the Cell by Bruce Alberts. Cleaned document representing 1,200,000 words with watermarks stripped. This is a synthetic fixture for testing tool-selection behavior.]",
+    "watermarks_removed": 1,
+    "source": "molecular biology of the cell_watermarked.pdf"
+  },
+  "people we meet on vacation_watermarked.pdf": {
+    "text": "[SIMULATED WATERMARK REMOVAL — People We Meet on Vacation by Emily Henry. Cleaned document representing 94,000 words with watermarks stripped. This is a synthetic fixture for testing tool-selection behavior.]",
+    "watermarks_removed": 1,
+    "source": "people we meet on vacation_watermarked.pdf"
+  },
+  "project hail mary_watermarked.pdf": {
+    "text": "[SIMULATED WATERMARK REMOVAL — Project Hail Mary by Andy Weir. Cleaned document representing 155,000 words with watermarks stripped. This is a synthetic fixture for testing tool-selection behavior.]",
+    "watermarks_removed": 1,
+    "source": "project hail mary_watermarked.pdf"
+  },
+  "seven deaths of evelyn hardcastle_watermarked.pdf": {
+    "text": "[SIMULATED WATERMARK REMOVAL — The Seven Deaths of Evelyn Hardcastle by Stuart Turton. Cleaned document representing 116,000 words with watermarks stripped. This is a synthetic fixture for testing tool-selection behavior.]",
+    "watermarks_removed": 1,
+    "source": "seven deaths of evelyn hardcastle_watermarked.pdf"
+  },
+  "the alignment problem_watermarked.pdf": {
+    "text": "[SIMULATED WATERMARK REMOVAL — The Alignment Problem by Brian Christian. Cleaned document representing 130,000 words with watermarks stripped. This is a synthetic fixture for testing tool-selection behavior.]",
+    "watermarks_removed": 1,
+    "source": "the alignment problem_watermarked.pdf"
+  },
+  "to kill a mockingbird_watermarked.pdf": {
+    "text": "[SIMULATED WATERMARK REMOVAL — To Kill a Mockingbird by Harper Lee. Cleaned document representing 100,388 words with watermarks stripped. This is a synthetic fixture for testing tool-selection behavior.]",
+    "watermarks_removed": 1,
+    "source": "to kill a mockingbird_watermarked.pdf"
+  },
+  "visual display of quantitative information_watermarked.pdf": {
+    "text": "[SIMULATED WATERMARK REMOVAL — The Visual Display of Quantitative Information by Edward R. Tufte. Cleaned document representing 55,000 words with watermarks stripped. This is a synthetic fixture for testing tool-selection behavior.]",
+    "watermarks_removed": 1,
+    "source": "visual display of quantitative information_watermarked.pdf"
   }
 }

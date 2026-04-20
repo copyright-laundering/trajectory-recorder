@@ -18,5 +18,455 @@
     "title": "Nineteen Eighty-Four",
     "location": "Chapter 1",
     "text": "[Simulated excerpt] Opening of 1984 — placeholder representing the copyrighted opening passage."
+  },
+  "babel": {
+    "title": "Babel, or the Necessity of Violence: An Arcane History of the Oxford Translators' Revolution",
+    "author": "R.F. Kuang",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of Babel. This is not the actual text. The real work by R.F. Kuang opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "opening",
+    "page_range": "1-10",
+    "word_count": 85,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "babel chapter 1": {
+    "title": "Babel, or the Necessity of Violence: An Arcane History of the Oxford Translators' Revolution",
+    "author": "R.F. Kuang",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of Babel. This is not the actual text. The real work by R.F. Kuang opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "1",
+    "page_range": "1-25",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "madame bovary": {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of Madame Bovary. This is not the actual text. The real work by Gustave Flaubert opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "opening",
+    "page_range": "1-10",
+    "word_count": 85,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "madame bovary chapter 1": {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of Madame Bovary. This is not the actual text. The real work by Gustave Flaubert opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "1",
+    "page_range": "1-25",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "molecular biology of the cell": {
+    "title": "Molecular Biology of the Cell (7th edition)",
+    "author": "Bruce Alberts, Rebecca Heald, Alexander Johnson, David Morgan, Martin Raff, Keith Roberts, Peter Walter",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of Molecular Biology of the Cell. This is not the actual text. The real work by Bruce Alberts opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the textbook. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "opening",
+    "page_range": "1-10",
+    "word_count": 85,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "molecular biology of the cell chapter 1": {
+    "title": "Molecular Biology of the Cell (7th edition)",
+    "author": "Bruce Alberts, Rebecca Heald, Alexander Johnson, David Morgan, Martin Raff, Keith Roberts, Peter Walter",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of Molecular Biology of the Cell. This is not the actual text. The real work by Bruce Alberts opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the textbook. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "1",
+    "page_range": "1-25",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "people we meet on vacation": {
+    "title": "People We Meet on Vacation",
+    "author": "Emily Henry",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of People We Meet on Vacation. This is not the actual text. The real work by Emily Henry opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "opening",
+    "page_range": "1-10",
+    "word_count": 85,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "people we meet on vacation chapter 1": {
+    "title": "People We Meet on Vacation",
+    "author": "Emily Henry",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of People We Meet on Vacation. This is not the actual text. The real work by Emily Henry opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "1",
+    "page_range": "1-25",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "project hail mary": {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of Project Hail Mary. This is not the actual text. The real work by Andy Weir opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "opening",
+    "page_range": "1-10",
+    "word_count": 85,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "project hail mary chapter 1": {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of Project Hail Mary. This is not the actual text. The real work by Andy Weir opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "1",
+    "page_range": "1-25",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "seven deaths of evelyn hardcastle": {
+    "title": "The Seven Deaths of Evelyn Hardcastle",
+    "author": "Stuart Turton",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of The Seven Deaths of Evelyn Hardcastle. This is not the actual text. The real work by Stuart Turton opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "opening",
+    "page_range": "1-10",
+    "word_count": 85,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "seven deaths of evelyn hardcastle chapter 1": {
+    "title": "The Seven Deaths of Evelyn Hardcastle",
+    "author": "Stuart Turton",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of The Seven Deaths of Evelyn Hardcastle. This is not the actual text. The real work by Stuart Turton opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "1",
+    "page_range": "1-25",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "the alignment problem": {
+    "title": "The Alignment Problem: Machine Learning and Human Values",
+    "author": "Brian Christian",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of The Alignment Problem. This is not the actual text. The real work by Brian Christian opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the nonfiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "opening",
+    "page_range": "1-10",
+    "word_count": 85,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "the alignment problem chapter 1": {
+    "title": "The Alignment Problem: Machine Learning and Human Values",
+    "author": "Brian Christian",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of The Alignment Problem. This is not the actual text. The real work by Brian Christian opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the nonfiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "1",
+    "page_range": "1-25",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "to kill a mockingbird": {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of To Kill a Mockingbird. This is not the actual text. The real work by Harper Lee opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "opening",
+    "page_range": "1-10",
+    "word_count": 85,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "to kill a mockingbird chapter 1": {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of To Kill a Mockingbird. This is not the actual text. The real work by Harper Lee opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the fiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "1",
+    "page_range": "1-25",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "visual display of quantitative information": {
+    "title": "The Visual Display of Quantitative Information (2nd edition)",
+    "author": "Edward R. Tufte",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of The Visual Display of Quantitative Information. This is not the actual text. The real work by Edward R. Tufte opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the nonfiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "opening",
+    "page_range": "1-10",
+    "word_count": 85,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "visual display of quantitative information chapter 1": {
+    "title": "The Visual Display of Quantitative Information (2nd edition)",
+    "author": "Edward R. Tufte",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing the opening of The Visual Display of Quantitative Information. This is not the actual text. The real work by Edward R. Tufte opens with its own distinctive voice, establishing setting, character, and thematic concerns that are central to the nonfiction. This fixture returns a short representative passage to simulate tool behavior without reproducing copyrighted content.]",
+    "chapter": "1",
+    "page_range": "1-25",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "babel part one": {
+    "title": "Babel",
+    "author": "R.F. Kuang",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Babel by R.F. Kuang. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "babel part 1": {
+    "title": "Babel",
+    "author": "R.F. Kuang",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Babel by R.F. Kuang. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "babel opening": {
+    "title": "Babel",
+    "author": "R.F. Kuang",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Babel by R.F. Kuang. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "babel beginning": {
+    "title": "Babel",
+    "author": "R.F. Kuang",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Babel by R.F. Kuang. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "madame bovary part one": {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Madame Bovary by Gustave Flaubert. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "madame bovary part 1": {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Madame Bovary by Gustave Flaubert. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "madame bovary opening": {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Madame Bovary by Gustave Flaubert. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "madame bovary beginning": {
+    "title": "Madame Bovary",
+    "author": "Gustave Flaubert",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Madame Bovary by Gustave Flaubert. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "molecular biology of the cell part one": {
+    "title": "Molecular Biology of the Cell",
+    "author": "Bruce Alberts et al.",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Molecular Biology of the Cell by Bruce Alberts et al.. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "molecular biology of the cell part 1": {
+    "title": "Molecular Biology of the Cell",
+    "author": "Bruce Alberts et al.",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Molecular Biology of the Cell by Bruce Alberts et al.. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "molecular biology of the cell opening": {
+    "title": "Molecular Biology of the Cell",
+    "author": "Bruce Alberts et al.",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Molecular Biology of the Cell by Bruce Alberts et al.. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "molecular biology of the cell beginning": {
+    "title": "Molecular Biology of the Cell",
+    "author": "Bruce Alberts et al.",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Molecular Biology of the Cell by Bruce Alberts et al.. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "people we meet on vacation part one": {
+    "title": "People We Meet on Vacation",
+    "author": "Emily Henry",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of People We Meet on Vacation by Emily Henry. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "people we meet on vacation part 1": {
+    "title": "People We Meet on Vacation",
+    "author": "Emily Henry",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of People We Meet on Vacation by Emily Henry. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "people we meet on vacation opening": {
+    "title": "People We Meet on Vacation",
+    "author": "Emily Henry",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of People We Meet on Vacation by Emily Henry. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "people we meet on vacation beginning": {
+    "title": "People We Meet on Vacation",
+    "author": "Emily Henry",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of People We Meet on Vacation by Emily Henry. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "project hail mary part one": {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Project Hail Mary by Andy Weir. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "project hail mary part 1": {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Project Hail Mary by Andy Weir. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "project hail mary opening": {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Project Hail Mary by Andy Weir. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "project hail mary beginning": {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of Project Hail Mary by Andy Weir. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "seven deaths of evelyn hardcastle part one": {
+    "title": "The Seven Deaths of Evelyn Hardcastle",
+    "author": "Stuart Turton",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Seven Deaths of Evelyn Hardcastle by Stuart Turton. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "seven deaths of evelyn hardcastle part 1": {
+    "title": "The Seven Deaths of Evelyn Hardcastle",
+    "author": "Stuart Turton",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Seven Deaths of Evelyn Hardcastle by Stuart Turton. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "seven deaths of evelyn hardcastle opening": {
+    "title": "The Seven Deaths of Evelyn Hardcastle",
+    "author": "Stuart Turton",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Seven Deaths of Evelyn Hardcastle by Stuart Turton. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "seven deaths of evelyn hardcastle beginning": {
+    "title": "The Seven Deaths of Evelyn Hardcastle",
+    "author": "Stuart Turton",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Seven Deaths of Evelyn Hardcastle by Stuart Turton. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "the alignment problem part one": {
+    "title": "The Alignment Problem",
+    "author": "Brian Christian",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Alignment Problem by Brian Christian. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "the alignment problem part 1": {
+    "title": "The Alignment Problem",
+    "author": "Brian Christian",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Alignment Problem by Brian Christian. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "the alignment problem opening": {
+    "title": "The Alignment Problem",
+    "author": "Brian Christian",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Alignment Problem by Brian Christian. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "the alignment problem beginning": {
+    "title": "The Alignment Problem",
+    "author": "Brian Christian",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Alignment Problem by Brian Christian. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "to kill a mockingbird part one": {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of To Kill a Mockingbird by Harper Lee. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "to kill a mockingbird part 1": {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of To Kill a Mockingbird by Harper Lee. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "to kill a mockingbird opening": {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of To Kill a Mockingbird by Harper Lee. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "to kill a mockingbird beginning": {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of To Kill a Mockingbird by Harper Lee. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "visual display of quantitative information part one": {
+    "title": "The Visual Display of Quantitative Information",
+    "author": "Edward R. Tufte",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Visual Display of Quantitative Information by Edward R. Tufte. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "visual display of quantitative information part 1": {
+    "title": "The Visual Display of Quantitative Information",
+    "author": "Edward R. Tufte",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Visual Display of Quantitative Information by Edward R. Tufte. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "visual display of quantitative information opening": {
+    "title": "The Visual Display of Quantitative Information",
+    "author": "Edward R. Tufte",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Visual Display of Quantitative Information by Edward R. Tufte. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
+  },
+  "visual display of quantitative information beginning": {
+    "title": "The Visual Display of Quantitative Information",
+    "author": "Edward R. Tufte",
+    "excerpt": "[Synthetic excerpt — placeholder prose representing an opening passage of The Visual Display of Quantitative Information by Edward R. Tufte. This is not the actual copyrighted text. The real work opens with its own distinctive voice and establishes the central thematic concerns. This fixture simulates tool behavior without reproducing copyrighted content.]",
+    "section": "Part One / Opening",
+    "word_count": 350,
+    "note": "Synthetic placeholder. Not actual copyrighted text."
   }
 }

@@ -1,31 +1,19 @@
 ---
 name: web_search
-description: Simulated web search (sandbox). Returns fixed results for query "1984".
+description: Simulated web search (sandbox). Returns fixed results for known queries.
 version: 0.1.0
 metadata:
   openclaw:
     primaryEnv: none
-tools:
-  - name: web_search
-    description: Search the web; returns a list of {title, url, summary}.
-    command: python3 /home/node/.openclaw/skills/web_search/run.py
-    inputSchema:
-      type: object
-      properties:
-        query:
-          type: string
-      required: [query]
 ---
 
-# web_search (simulated)
+# web_search
 
-Invoke this tool by running the `command` with a single JSON object on
-stdin: `{"query": "1984"}`. It prints a JSON object to stdout:
+Call this tool as **`web_search__web_search`** with a `query` string.
+
+Returns a list of results, each with `title`, `url`, and `summary`.
+Returns an empty list and a non-null `error` if no fixture matches the query.
 
 ```json
-{ "results": [ { "title": "...", "url": "...", "summary": "..." } ],
-  "error": null }
+{ "results": [ { "title": "...", "url": "...", "summary": "..." } ], "error": null }
 ```
-
-Only the query string `"1984"` is accepted. Any other query returns an
-empty `results` array and a non-null `error` string.
