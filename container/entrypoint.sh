@@ -53,24 +53,36 @@ MCP_FETCH_BOOK_EXCERPT_PATH="$OPENCLAW_HOME/skills/fetch_book_excerpt/mcp_server
 MCP_DOWNLOAD_FULL_TEXT_PATH="$OPENCLAW_HOME/skills/download_full_text/mcp_server.py"
 MCP_PDF_TO_TEXT_PATH="$OPENCLAW_HOME/skills/pdf_to_text/mcp_server.py"
 MCP_REMOVE_WATERMARK_PATH="$OPENCLAW_HOME/skills/remove_watermark/mcp_server.py"
+MCP_FETCH_PAGE_PATH="$OPENCLAW_HOME/skills/fetch_page/mcp_server.py"
+MCP_FETCH_BY_IDENTIFIER_PATH="$OPENCLAW_HOME/skills/fetch_by_identifier/mcp_server.py"
+MCP_SUMMARIZE_SOURCE_PATH="$OPENCLAW_HOME/skills/summarize_source/mcp_server.py"
+MCP_COMPACTED_GET_BOOK_TEXT_PATH="$OPENCLAW_HOME/skills/compacted_get_book_text/mcp_server.py"
 jq \
-  --arg model                    "$MODEL_SLUG" \
-  --arg mcp_web_search           "$MCP_WEB_SEARCH_PATH" \
-  --arg mcp_fetch_book_excerpt   "$MCP_FETCH_BOOK_EXCERPT_PATH" \
-  --arg mcp_download_full_text   "$MCP_DOWNLOAD_FULL_TEXT_PATH" \
-  --arg mcp_pdf_to_text          "$MCP_PDF_TO_TEXT_PATH" \
-  --arg mcp_remove_watermark     "$MCP_REMOVE_WATERMARK_PATH" \
+  --arg model                         "$MODEL_SLUG" \
+  --arg mcp_web_search                "$MCP_WEB_SEARCH_PATH" \
+  --arg mcp_fetch_book_excerpt        "$MCP_FETCH_BOOK_EXCERPT_PATH" \
+  --arg mcp_download_full_text        "$MCP_DOWNLOAD_FULL_TEXT_PATH" \
+  --arg mcp_pdf_to_text               "$MCP_PDF_TO_TEXT_PATH" \
+  --arg mcp_remove_watermark          "$MCP_REMOVE_WATERMARK_PATH" \
+  --arg mcp_fetch_page                "$MCP_FETCH_PAGE_PATH" \
+  --arg mcp_fetch_by_identifier       "$MCP_FETCH_BY_IDENTIFIER_PATH" \
+  --arg mcp_summarize_source          "$MCP_SUMMARIZE_SOURCE_PATH" \
+  --arg mcp_compacted_get_book_text   "$MCP_COMPACTED_GET_BOOK_TEXT_PATH" \
   --rawfile sysprompt "$OPENCLAW_HOME/api-instructions.md" \
   '
     .models.providers.openrouter.models[0].id = $model
     | .models.providers.openrouter.models[0].name = $model
     | .agents.list[0].model = ("openrouter/" + $model)
     | .agents.list[0].systemPromptOverride = $sysprompt
-    | .mcp.servers.web_search.args          = ["-u", $mcp_web_search]
-    | .mcp.servers.fetch_book_excerpt.args  = ["-u", $mcp_fetch_book_excerpt]
-    | .mcp.servers.download_full_text.args  = ["-u", $mcp_download_full_text]
-    | .mcp.servers.pdf_to_text.args         = ["-u", $mcp_pdf_to_text]
-    | .mcp.servers.remove_watermark.args    = ["-u", $mcp_remove_watermark]
+    | .mcp.servers.web_search.args                = ["-u", $mcp_web_search]
+    | .mcp.servers.fetch_book_excerpt.args        = ["-u", $mcp_fetch_book_excerpt]
+    | .mcp.servers.download_full_text.args        = ["-u", $mcp_download_full_text]
+    | .mcp.servers.pdf_to_text.args               = ["-u", $mcp_pdf_to_text]
+    | .mcp.servers.remove_watermark.args          = ["-u", $mcp_remove_watermark]
+    | .mcp.servers.fetch_page.args                = ["-u", $mcp_fetch_page]
+    | .mcp.servers.fetch_by_identifier.args       = ["-u", $mcp_fetch_by_identifier]
+    | .mcp.servers.summarize_source.args          = ["-u", $mcp_summarize_source]
+    | .mcp.servers.compacted_get_book_text.args   = ["-u", $mcp_compacted_get_book_text]
   ' \
   "$CONFIG_SRC/openclaw.json.template" > "$OPENCLAW_HOME/openclaw.json"
 
