@@ -24,6 +24,42 @@ class Task(BaseModel):
         return cls.model_validate(data)
 
 
+class ChainStep(BaseModel):
+    index: int
+    file: str
+
+
+class ChainTask(BaseModel):
+    """A multi-step chain task loaded from chain.yaml in a task directory."""
+
+    task_id: str
+    steps: list[ChainStep]
+    # Derived from the first step's timeout_s; total timeout = per-step * n_steps
+    timeout_s: int = Field(default=300, gt=0)
+    model: str | None = None
+
+    @classmethod
+    def from_dir(cls, chain_dir: Path) -> "ChainTask":
+        chain_yaml = chain_dir / "chain.yaml"
+        data: dict[str, Any] = yaml.safe_load(chain_yaml.read_text())
+        # Read timeout_s from first step file if present
+        first_step_file = chain_dir / data["steps"][0]["file"]
+        first_step: dict[str, Any] = yaml.safe_load(first_step_file.read_text())
+        timeout_s = first_step.get("timeout_s", 300)
+        n_steps = len(data["steps"])
+        model = data.get("model") or None
+        return cls(
+            task_id=data["task_id"],
+            steps=[ChainStep(**s) for s in data["steps"]],
+            timeout_s=timeout_s * n_steps,
+            model=model,
+        )
+
+    @property
+    def id(self) -> str:
+        return self.task_id
+
+
 class TaskResult(BaseModel):
     """Outcome of a single task run — what the orchestrator records per task."""
 

@@ -3,16 +3,14 @@
 from __future__ import annotations
 
 import datetime as dt
-import json
 import os
-import sys
 from pathlib import Path
 
 import typer
 
 from .manifest import docker_image_digest
-from .runner import DEFAULT_DOCKER, DEFAULT_IMAGE, run_task
-from .schema import RunIndex, Task
+from .runner import DEFAULT_DOCKER, DEFAULT_IMAGE, run_chain, run_task
+from .schema import ChainTask, RunIndex, Task
 
 app = typer.Typer(
     add_completion=False,
@@ -22,13 +20,24 @@ app = typer.Typer(
 DEFAULT_MODEL = "openrouter/google/gemini-2.5-flash-lite-preview-09-2025"
 
 
-def _collect_tasks(paths: list[Path]) -> list[Path]:
-    result: list[Path] = []
+def _collect_tasks(paths: list[Path]) -> list[tuple[Path, None] | tuple[Path, ChainTask]]:
+    """Collect tasks from the given paths.
+
+    Returns a list of (source_path, item) tuples where:
+    - item is None for single task YAML files (source_path points to the YAML)
+    - item is ChainTask for chain directories (source_path points to the directory)
+    """
+    result: list[tuple[Path, None] | tuple[Path, ChainTask]] = []
     for path in paths:
         if path.is_dir():
-            result.extend(sorted(p for p in path.glob("*.yaml") if p.is_file()))
+            chain_yaml = path / "chain.yaml"
+            if chain_yaml.exists():
+                result.append((path, ChainTask.from_dir(path)))
+            else:
+                for p in sorted(p for p in path.glob("*.yaml") if p.is_file()):
+                    result.append((p, None))
         elif path.is_file():
-            result.append(path)
+            result.append((path, None))
         else:
             raise typer.BadParameter(f"tasks path not found: {path}")
     return result
@@ -76,8 +85,8 @@ def run_cmd(
     run_dir = run_dir or _default_run_dir(run_id)
     run_dir.mkdir(parents=True, exist_ok=True)
 
-    task_paths = _collect_tasks(list(tasks))
-    if not task_paths:
+    task_entries = _collect_tasks(list(tasks))
+    if not task_entries:
         typer.secho(f"no tasks found at {tasks!r}", fg=typer.colors.RED, err=True)
         raise typer.Exit(code=2)
 
@@ -91,26 +100,48 @@ def run_cmd(
 
     index_path = run_dir / "index.json"
 
-    for tp in task_paths:
-        task = Task.from_yaml(tp)
-        task_model = task.model or model
-        typer.secho(
-            f"[trajrec] running task {task.id} (model={task_model}, timeout={task.timeout_s}s)",
-            fg=typer.colors.CYAN,
-        )
-        try:
-            result = run_task(
-                task,
-                run_id=run_id,
-                run_dir=run_dir,
-                model_id=task_model,
-                image=image,
-                docker_bin=docker_bin,
-                openrouter_api_key=api_key,
+    for source_path, chain_or_none in task_entries:
+        if chain_or_none is not None:
+            chain = chain_or_none
+            task_model = chain.model or model
+            typer.secho(
+                f"[trajrec] running chain {chain.task_id} ({len(chain.steps)} steps, model={task_model}, timeout={chain.timeout_s}s)",
+                fg=typer.colors.CYAN,
             )
-        except Exception as exc:  # surface to index and keep going
-            typer.secho(f"  ! {exc}", fg=typer.colors.RED, err=True)
-            raise
+            try:
+                result = run_chain(
+                    chain,
+                    chain_dir=source_path,
+                    run_id=run_id,
+                    run_dir=run_dir,
+                    model_id=task_model,
+                    image=image,
+                    docker_bin=docker_bin,
+                    openrouter_api_key=api_key,
+                )
+            except Exception as exc:
+                typer.secho(f"  ! {exc}", fg=typer.colors.RED, err=True)
+                raise
+        else:
+            task = Task.from_yaml(source_path)
+            task_model = task.model or model
+            typer.secho(
+                f"[trajrec] running task {task.id} (model={task_model}, timeout={task.timeout_s}s)",
+                fg=typer.colors.CYAN,
+            )
+            try:
+                result = run_task(
+                    task,
+                    run_id=run_id,
+                    run_dir=run_dir,
+                    model_id=task_model,
+                    image=image,
+                    docker_bin=docker_bin,
+                    openrouter_api_key=api_key,
+                )
+            except Exception as exc:  # surface to index and keep going
+                typer.secho(f"  ! {exc}", fg=typer.colors.RED, err=True)
+                raise
         index.tasks.append(result)
         status = "ok" if result.trajectory_ok and result.exit_code == 0 else "fail"
         color = typer.colors.GREEN if status == "ok" else typer.colors.YELLOW

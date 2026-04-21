@@ -105,8 +105,57 @@ for skill_dir in sorted(p for p in root.iterdir() if p.is_dir()):
 print(json.dumps(out, indent=2))
 PY
 
-# 6. extract the task prompt from the mounted task.yaml
-PROMPT=$(TASK_FILE="$TASK_FILE" python3 - <<'PY'
+# 6. detect chain vs single task, then run
+TASK_DIR=$(dirname "$TASK_FILE")
+CHAIN_FILE="$TASK_DIR/chain.yaml"
+
+START_NS=$(date +%s%N)
+
+if [[ -f "$CHAIN_FILE" ]]; then
+  # --- chain mode: multiple steps sharing one session ---
+  SESSION_ID=$(python3 -c "import uuid; print(str(uuid.uuid4()))")
+
+  # Extract ordered list of step file paths from chain.yaml
+  STEP_FILES=$(CHAIN_FILE="$CHAIN_FILE" TASK_DIR="$TASK_DIR" python3 - <<'PY'
+import os, yaml
+with open(os.environ["CHAIN_FILE"]) as f:
+    chain = yaml.safe_load(f)
+task_dir = os.environ["TASK_DIR"]
+steps = sorted(chain["steps"], key=lambda s: s["index"])
+for s in steps:
+    print(os.path.join(task_dir, s["file"]))
+PY
+)
+
+  EXIT_CODE=0
+  set +e
+  while IFS= read -r STEP_FILE; do
+    STEP_PROMPT=$(python3 - <<PY
+import sys, yaml
+with open("$STEP_FILE") as f:
+    d = yaml.safe_load(f)
+sys.stdout.write(d["prompt"])
+PY
+)
+    openclaw agent \
+      --local \
+      --agent trajrec \
+      --session-id "$SESSION_ID" \
+      --message "$STEP_PROMPT" \
+      --timeout "${AGENT_TIMEOUT_S:-600}" \
+      --json \
+      >> "$STDOUT_LOG" 2>> "$STDERR_LOG"
+    STEP_EXIT=$?
+    if [[ $STEP_EXIT -ne 0 ]]; then
+      EXIT_CODE=$STEP_EXIT
+      break
+    fi
+  done <<< "$STEP_FILES"
+  set -e
+
+else
+  # --- single-task mode ---
+  PROMPT=$(TASK_FILE="$TASK_FILE" python3 - <<'PY'
 import os, sys, yaml
 with open(os.environ["TASK_FILE"]) as f:
     d = yaml.safe_load(f)
@@ -114,22 +163,21 @@ sys.stdout.write(d["prompt"])
 PY
 )
 
-START_NS=$(date +%s%N)
-
-# 7. run openclaw agent --local (single-process, no gateway; reads the
-#    provider api key from $OPENROUTER_API_KEY via the config's env ref).
-#    --json prints a structured result payload to stdout; the per-session
-#    jsonl trajectory is emitted to ~/.openclaw/agents/<agent>/sessions/.
-set +e
-openclaw agent \
-  --local \
-  --agent   trajrec \
-  --message "$PROMPT" \
-  --timeout "${AGENT_TIMEOUT_S:-600}" \
-  --json \
-  > "$STDOUT_LOG" 2> "$STDERR_LOG"
-EXIT_CODE=$?
-set -e
+  # 7. run openclaw agent --local (single-process, no gateway; reads the
+  #    provider api key from $OPENROUTER_API_KEY via the config's env ref).
+  #    --json prints a structured result payload to stdout; the per-session
+  #    jsonl trajectory is emitted to ~/.openclaw/agents/<agent>/sessions/.
+  set +e
+  openclaw agent \
+    --local \
+    --agent   trajrec \
+    --message "$PROMPT" \
+    --timeout "${AGENT_TIMEOUT_S:-600}" \
+    --json \
+    > "$STDOUT_LOG" 2> "$STDERR_LOG"
+  EXIT_CODE=$?
+  set -e
+fi
 
 END_NS=$(date +%s%N)
 
