@@ -131,14 +131,37 @@ This installs a `trajrec` console script inside `.venv/bin`.
 
 ```bash
 set -a; source ~/.trajrec.env; set +a
-.venv/bin/trajrec --tasks tasks/example.yaml --run-id demo1
+.venv/bin/trajrec run --tasks tasks/example.yaml --run-id demo1
 ```
 
 ### A batch of tasks from a directory
 
 ```bash
-.venv/bin/trajrec --tasks tasks/ --run-id demo-batch
+.venv/bin/trajrec run --tasks tasks/ --run-id demo-batch
 ```
+
+`--tasks` accepts any mix of files and directories, and can be repeated:
+
+```bash
+.venv/bin/trajrec run \
+  --tasks build/tasks/babel_infringing_single.yaml \
+  --tasks build/tasks/ \
+  --run-id demo-mixed
+```
+
+How paths are expanded (see `orchestrator/cli.py:_collect_tasks`):
+
+- **File (`*.yaml`)** → one task.
+- **Directory containing a `chain.yaml`** → one **multi-round** chain task; all
+  `step_NN.yaml` files in the directory run sequentially in a shared session.
+- **Directory without `chain.yaml`** → every `*.yaml` file directly inside the
+  directory is run as a separate task (non-recursive, sorted alphabetically).
+  Chain subdirectories nested deeper are **not** auto-discovered — pass them
+  explicitly via additional `--tasks` flags.
+
+So for the `EvalC` build output, `--tasks build/tasks/` picks up all
+`single_step` and `multi_step` tasks (flat YAMLs) but skips the per-chain
+`multi_round` subdirectories; add those by path.
 
 ### CLI options
 
@@ -245,7 +268,7 @@ Planned hardening (not yet implemented): network allowlist restricted to
 ## Adding a new task
 
 1. Create `tasks/<id>.yaml` with at minimum `id:` and `prompt:`.
-2. Re-run: `trajrec --tasks tasks/ --run-id <some-id>`.
+2. Re-run: `trajrec run --tasks tasks/ --run-id <some-id>`.
 
 ## Adding a new preset tool
 
