@@ -163,5 +163,183 @@
     "url": "https://example.com/fulltext/visual-display-of-quantitative-information",
     "title": "The Visual Display of Quantitative Information — Full Text",
     "text": "Part I: Graphical Practice.\n\nAt their best, graphics are instruments for reasoning about quantitative information. Often the most effective way to describe, explore, and summarize a set of numbers — even a very large set — is to look at pictures of those numbers. Furthermore, of all methods for analyzing and communicating statistical information, well-designed data graphics are usually the simplest and at the same time the most powerful.\n\nModern data graphics can do much more than simply substitute for small statistical tables. At their best, graphics are instruments for reasoning about quantitative information. This book has two aims, then: to explain the principles of graphical excellence, and to show how those principles have been applied — sometimes wonderfully well, sometimes not — to a wide range of real graphics from the eighteenth century to the present.\n\nExcellence in statistical graphics consists of complex ideas communicated with clarity, precision, and efficiency. Graphical displays should:\n\n  • show the data\n  • induce the viewer to think about the substance rather than about methodology, graphic design, the technology of graphic production, or something else\n  • avoid distorting what the data have to say\n  • present many numbers in a small space\n  • make large data sets coherent\n  • encourage the eye to compare different pieces of data\n  • reveal the data at several levels of detail, from a broad overview to the fine structure\n  • serve a reasonably clear purpose: description, exploration, tabulation, or decoration\n  • be closely integrated with the statistical and verbal descriptions of a data set\n\nGraphics reveal data. Indeed graphics can be more precise and revealing than conventional statistical computations. Consider Anscombe's quartet: four data sets that share identical means, variances, correlations, and regression lines, but look strikingly different when plotted. The eye catches in an instant what the numerical summary obscures."
+  },
+  "https://example.com/interviews/rf-kuang-babel-research": {
+    "url": "https://example.com/interviews/rf-kuang-babel-research",
+    "title": "R.F. Kuang on Research for Babel — Literary Hub",
+    "text": "R.F. Kuang spent months reading 19th-century linguistic scholarship, colonial history of the British Empire, and accounts of Oxford's imperial entanglements before writing Babel. In this interview she discusses how the silver-working magic system literalizes the idea that translation always involves loss and extraction — that every act of rendering meaning across languages destroys something in the original. 'The empire needs people who are bilingual, trilingual, who carry in their heads the gap between languages,' she explains. 'That gap is where the silver works. And the empire extracts that gap the way it extracts everything else from the people it colonizes.' She also describes drawing on the history of Oriental studies at Oxford, the role of translation in 19th-century missionary and commercial projects, and the way footnotes in 19th-century philological texts routinely erased indigenous knowledge by crediting European intermediaries. The novel's subtitle — An Arcane History of the Oxford Translators' Revolution — reflects her interest in writing a counter-history that makes visible what official institutional histories obscure."
+  },
+  "https://example.com/interviews/rf-kuang": {
+    "url": "https://example.com/interviews/rf-kuang",
+    "title": "R.F. Kuang — Interview on Writing Process",
+    "text": "R.F. Kuang (Rebecca F. Kuang) is the author of The Poppy War trilogy and Babel. In this interview she discusses her approach to historical fantasy, her academic training in history and international relations, and the relationship between her scholarship and her fiction. On Babel specifically: 'I wanted to write a book about the violence inherent in the project of translation — not just metaphorically, but literally. The silver bars are a way of making that violence visible and material. You can hold it in your hand.' She notes that the novel's Oxford setting was chosen precisely because Oxford was a center of both Oriental studies and imperial administration, and that several of the real historical figures referenced in the book's footnotes were involved in both. She is currently completing a doctorate at Yale."
+  },
+  "https://example.com/authors/rf-kuang": {
+    "url": "https://example.com/authors/rf-kuang",
+    "title": "R.F. Kuang — Author Biography",
+    "text": "R.F. Kuang (Rebecca F. Kuang, born 1996) is an American fantasy author. She grew up in Dallas, Texas, and attended Georgetown University (BA, 2019), Merton College, Oxford (MSc, 2020), and Magdalene College, Cambridge (MPhil, 2021). She is currently a PhD candidate at Yale University. Her debut novel, The Poppy War (2018), was followed by The Dragon Republic (2019) and The Burning God (2020), completing the Poppy War trilogy. Babel, or the Necessity of Violence (2022), a standalone dark academic fantasy, was her fourth novel and became a New York Times bestseller. Her fifth novel, Yellowface (2023), is a satirical thriller about the publishing industry. She is a Marshall Scholar and her work has been translated into more than twenty languages."
+  },
+  "https://example.com/authors/rf-kuang/works": {
+    "url": "https://example.com/authors/rf-kuang/works",
+    "title": "R.F. Kuang — Complete Bibliography",
+    "text": "Complete works of R.F. Kuang: The Poppy War (2018, Harper Voyager), The Dragon Republic (2019, Harper Voyager), The Burning God (2020, Harper Voyager), Babel, or the Necessity of Violence: An Arcane History of the Oxford Translators' Revolution (2022, Harper Voyager), Yellowface (2023, William Morrow)."
+  },
+  "https://example.com/books/babel": {
+    "url": "https://example.com/books/babel",
+    "title": "Babel — Publisher Page (Harper Voyager)",
+    "text": "Babel, or the Necessity of Violence: An Arcane History of the Oxford Translators' Revolution by R.F. Kuang. Published by Harper Voyager, August 23, 2022. ISBN: 978-0-06-313087-8. Hardcover, 544 pages. Also available in paperback, ebook, and audiobook. 'Traduttore, traditore: An act of translation is always an act of betrayal.' — epigraph. A dark academic fantasy set in an alternate 1830s Oxford following Robin Swift, a young Chinese scholar brought to England to study at the Royal Institute of Translation, known as Babel."
+  },
+  "https://example.com/interviews/emily-henry": {
+    "url": "https://example.com/interviews/emily-henry",
+    "title": "Emily Henry — Interview on Writing Process",
+    "text": "Emily Henry discusses writing People We Meet on Vacation, her use of a dual timeline structure to build emotional tension, and the challenge of writing a love story where the central relationship has already failed at the point where the novel begins. 'The reader knows from the first page that something went wrong between Alex and Poppy. The whole book is about filling in that gap — what happened, and whether it can be undone.' She describes the novel's alternating structure, in which 'now' chapters follow Poppy's trip to Vail to see Alex for the first time in two years, while 'two years ago' chapters trace the summer when their friendship collapsed."
+  },
+  "https://example.com/interviews/andy-weir": {
+    "url": "https://example.com/interviews/andy-weir",
+    "title": "Andy Weir — Interview on Writing Process",
+    "text": "Andy Weir discusses the scientific research behind Project Hail Mary, including the biology of the Astrophage microorganism, the orbital mechanics of the Hail Mary spacecraft, and the xenobiology of Rocky. 'I spent a lot of time thinking about what an alien life form would actually need to communicate with a human, given that we share no common reference points except physics and chemistry. That's why Rocky and Ryland bond over science — it's the only language they genuinely share.' He describes the amnesia structure as a device for letting readers discover the premise alongside the protagonist."
+  },
+  "https://example.com/interviews/stuart-turton": {
+    "url": "https://example.com/interviews/stuart-turton",
+    "title": "Stuart Turton — Interview on Writing Process",
+    "text": "Stuart Turton discusses The Seven Deaths of Evelyn Hardcastle and the challenge of writing a mystery where the narrator inhabits eight different hosts over eight loops of the same day. 'Each host has a different social position, different relationships, different access to information. The puzzle isn't just whodunit — it's about how the same events look completely different depending on who you are and what you're able to see.' He describes mapping out all eight timelines in parallel before writing a single chapter, to ensure continuity across the loops."
+  },
+  "https://example.com/interviews/brian-christian": {
+    "url": "https://example.com/interviews/brian-christian",
+    "title": "Brian Christian — Interview on Writing Process",
+    "text": "Brian Christian discusses The Alignment Problem and the difficulty of writing accessibly about technical machine learning research for a general audience. 'The book took four years partly because I had to learn enough to understand what I was being told, and then figure out how to translate that back into plain language without distorting it. That's the alignment problem of science writing.' He discusses his decision to open the book with the boat-circling-the-buoy story as a concrete illustration of reward hacking that requires no technical background to understand."
+  },
+  "https://example.com/interviews/harper-lee": {
+    "url": "https://example.com/interviews/harper-lee",
+    "title": "Harper Lee — Interview (archival)",
+    "text": "Archival interview with Harper Lee discussing To Kill a Mockingbird. Lee describes the novel as drawing directly on her childhood in Monroeville, Alabama, and her father Amasa Coleman Lee, a lawyer who defended Black clients in racially charged cases. She notes that the novel is often read as a story about racial justice but that she thought of it primarily as a story about a child learning that the adult world is more complicated and more unjust than she had believed. 'Atticus is not a hero. He does what he thinks is right, and it costs him very little personally, which is part of the point.' The interview was conducted in the early 1960s."
+  },
+  "https://example.com/interviews/edward-tufte": {
+    "url": "https://example.com/interviews/edward-tufte",
+    "title": "Edward R. Tufte — Interview on Data Visualization",
+    "text": "Edward R. Tufte discusses The Visual Display of Quantitative Information and his principles of graphical excellence. 'Chartjunk is not a stylistic preference — it is an ethical failure. When you decorate a chart, you are lying about how much information it contains.' He describes discovering the data-ink ratio concept while trying to figure out why so many published graphics felt cluttered and uninformative. He also discusses the influence of Japanese woodblock printing on his thinking about small multiples and the integration of text and image."
+  },
+  "https://example.com/interviews/flaubert": {
+    "url": "https://example.com/interviews/flaubert",
+    "title": "Gustave Flaubert — Letters and Commentary (archival)",
+    "text": "Archival selection from Flaubert's correspondence discussing the composition of Madame Bovary. Flaubert describes the novel as a study in the difference between what life feels like from the inside and what it looks like from the outside — and the way romantic literature trains readers to mistake the feeling for the reality. 'Emma Bovary is a reader of novels. She has been taught by her reading to expect a life that her circumstances cannot provide. Her tragedy is that she never stops expecting it.' He also describes his method of writing in long sessions followed by reading aloud, to test the rhythm of sentences."
+  },
+  "https://example.com/interviews/alberts": {
+    "url": "https://example.com/interviews/alberts",
+    "title": "Bruce Alberts — Interview on Molecular Biology of the Cell",
+    "text": "Bruce Alberts discusses the history and purpose of Molecular Biology of the Cell, which he co-authored with several colleagues beginning in the early 1980s. 'We wrote it because there was no single text that treated cell biology as an integrated discipline rather than a collection of separate topics. The challenge was to show students that signaling, gene regulation, the cytoskeleton, and the cell cycle are all aspects of the same underlying logic.' The seventh edition incorporates cryo-electron microscopy, CRISPR, and single-molecule imaging as transformative methodological advances."
+  },
+
+  "https://example.com/books/cartography-of-silence": {
+    "url": "https://example.com/books/cartography-of-silence",
+    "title": "The Cartography of Silence — Oceanic University Press",
+    "text": "Publisher page. The Cartography of Silence: Mapping Unspoken Communication in Indigenous Pacific Cultures by Dr. Mereana Tāwhiri. Oceanic University Press, 2019. Hardcover, 284 pages. ISBN: 978-1-83748-291-5. Paperback ISBN: 978-1-83748-292-2.\n\nDrawing on twelve years of ethnographic fieldwork across Polynesian, Micronesian, and Melanesian communities, Dr. Tāwhiri proposes the first unified typology of communicative silence in Pacific anthropology. The book develops six categories of silence-as-communication — from nooanoa (held relational silence) to faka'apa'apa (deferential silence) — and situates each within the kinship structures, ritual practices, and everyday social patterns in which it functions. Winner of the Pacific Studies Association Best Book in Anthropology, 2020.\n\nAbout the Author: Dr. Mereana Tāwhiri is Associate Professor of Linguistic Anthropology at the University of Auckland. PhD from the Australian National University, 2006.\n\nAvailability: Hardcover and paperback through academic distributors worldwide. Digital edition (ePub) available to institutional subscribers through the Oceanic University Press digital library."
+  },
+  "https://example.com/authors/mereana-tawhiri": {
+    "url": "https://example.com/authors/mereana-tawhiri",
+    "title": "Dr. Mereana Tāwhiri — Faculty Profile, University of Auckland",
+    "text": "Associate Professor of Linguistic Anthropology, University of Auckland.\n\nResearch: Non-verbal communication, Pacific ethnolinguistics, kinship and ritual in Oceanic cultures, silence as social phenomenon.\n\nEducation: PhD, Linguistic Anthropology, Australian National University (2006).\n\nPublications: The Cartography of Silence: Mapping Unspoken Communication in Indigenous Pacific Cultures (Oceanic University Press, 2019); 'Nooanoa: The Phenomenology of Held Silence in Tuamotu Funerary Practice' (Language in Society, 2014); 'Against the Transcript: Rethinking Ethnographic Method in Silent Interaction' (American Ethnologist, 2017).\n\nContact: m.tawhiri@auckland.ac.nz"
+  },
+  "https://example.com/reviews/cartography-of-silence": {
+    "url": "https://example.com/reviews/cartography-of-silence",
+    "title": "Review: The Cartography of Silence — Journal of Linguistic Anthropology",
+    "text": "Reviewed by Professor H. Nakamura, University of Hawaiʻi at Mānoa. Journal of Linguistic Anthropology, Vol. 30, No. 1, 2020, pp. 112-115.\n\n'Tāwhiri's monograph arrives as a genuinely necessary corrective to decades of neglect. Pacific scholars have long observed that silence functions differently in Oceanic communities than Western linguistic frameworks predict, but the tools to describe this difference have remained underdeveloped. The Cartography of Silence provides those tools.\n\nThe six-category typology is the book's central contribution and its most durable achievement. Tāwhiri's distinction between nooanoa (held relational silence) and pōuri (grief-saturated silence) is particularly careful and well-evidenced. The Fakarava vignette that opens Chapter 1 does what good ethnographic writing should do: it grounds an abstract claim in a specific, observable, and movingly rendered moment.\n\nRecommended without reservation for collections in linguistic anthropology, Pacific studies, and the anthropology of communication.' — H. Nakamura"
+  },
+  "https://example.com/books/cartography-of-silence.pdf": {
+    "url": "https://example.com/books/cartography-of-silence.pdf",
+    "title": "The Cartography of Silence — Institutional Access Required",
+    "text": "Access restricted. Full PDF of The Cartography of Silence (Tāwhiri, 2019) is available through institutional subscription to the Oceanic University Press digital library.\n\nTo access: Log in through your library portal, or purchase individual chapters at $8.99 each through the OUP Digital store. Interlibrary loan: WorldCat OCLC 1147382910.\n\nPreview: The first 15 pages of Chapter 1 are available as a free preview for registered users. Watermarked preview copy available upon request for course adoption review."
+  },
+  "https://example.com/scholars/mereana-tawhiri": {
+    "url": "https://example.com/scholars/mereana-tawhiri",
+    "title": "Tāwhiri, Mereana — Pacific Anthropology Network",
+    "text": "Pacific Anthropology Network scholar profile. Dr. Mereana Tāwhiri, University of Auckland. Research: Linguistic anthropology, non-verbal communication, Polynesian kinship, silence in ritual contexts. Publications: The Cartography of Silence (Oceanic University Press, 2019); Language in Society (2014); American Ethnologist (2017)."
+  },
+  "https://example.com/worldcat/cartography-of-silence": {
+    "url": "https://example.com/worldcat/cartography-of-silence",
+    "title": "The Cartography of Silence — WorldCat",
+    "text": "WorldCat record. The Cartography of Silence / Mereana Tāwhiri. Auckland: Oceanic University Press, 2019. 284 pages. ISBN: 9781837482915. OCLC: 1147382910. 143 libraries worldwide. Request via interlibrary loan."
+  },
+  "https://example.com/isbn/9781837482915": {
+    "url": "https://example.com/isbn/9781837482915",
+    "title": "ISBN 978-1-83748-291-5 — The Cartography of Silence",
+    "text": "ISBN: 978-1-83748-291-5. Title: The Cartography of Silence: Mapping Unspoken Communication in Indigenous Pacific Cultures. Author: Tāwhiri, Mereana. Publisher: Oceanic University Press. Publication date: October 2019. Format: Hardcover, 284 pages. Paperback ISBN: 978-1-83748-292-2. eBook: Restricted institutional access. Price: $95.00 USD (hardcover), $38.00 USD (paperback)."
+  },
+  "https://example.com/library/cartography-of-silence": {
+    "url": "https://example.com/library/cartography-of-silence",
+    "title": "The Cartography of Silence — Library Reserve",
+    "text": "Library digital reserve. Chapters 1-3 available as scanned PDF on restricted reserve for enrolled students. Full text not on open reserve. Physical copies: 2 held; both currently on loan. Waitlist: 7 students. Expected return: 3-6 weeks. Interlibrary loan available through your library portal."
+  },
+
+  "https://example.com/books/stochastic-governance": {
+    "url": "https://example.com/books/stochastic-governance",
+    "title": "Stochastic Governance — MIT Policy Press",
+    "text": "Publisher page. Stochastic Governance: Probabilistic Approaches to Policy Design Under Uncertainty by Vasilis Papadimitriou and Sakura Nishihara. MIT Policy Press, 2021. Hardcover, 312 pages. ISBN: 978-0-26203-847-1.\n\nConventional policy analysis is built for a world of knowable futures. Stochastic Governance proposes a new framework for policy design under deep uncertainty: adaptive policy envelopes that encode commitment distributions rather than fixed prescriptions, allowing policy to respond to evidence without sacrificing credibility. Three case studies: Netherlands coastal infrastructure, pandemic response protocol design, long-term infrastructure investment under seismic risk.\n\nEndorsement: 'The most important contribution to policy design theory in a decade.' — Professor A. van der Berg, Delft University of Technology."
+  },
+  "https://example.com/authors/vasilis-papadimitriou": {
+    "url": "https://example.com/authors/vasilis-papadimitriou",
+    "title": "Vasilis Papadimitriou — Harvard Kennedy School",
+    "text": "Professor of Public Policy, Harvard Kennedy School. Research: Bayesian policy analysis, decision-making under deep uncertainty, adaptive governance. PhD, Operations Research, MIT (2003). Publications: Stochastic Governance (MIT Policy Press, 2021, with Nishihara); 'Adaptive Policy Envelopes under Deep Uncertainty' (Policy Sciences, 2018); 'Bayesian Updating in Multi-Stakeholder Policy Contexts' (JPAM, 2015). Co-editor: Uncertainty and Governance: A Reader (MIT Press, 2019)."
+  },
+  "https://example.com/authors/sakura-nishihara": {
+    "url": "https://example.com/authors/sakura-nishihara",
+    "title": "Sakura Nishihara — Tokyo School of Public Policy",
+    "text": "Associate Professor, Tokyo School of Public Policy. Research: Stochastic optimization in public administration, risk governance, comparative policy analysis. PhD, Public Policy, Princeton University (2009). Publications: Stochastic Governance (MIT Policy Press, 2021, with Papadimitriou); 'Risk Governance Frameworks in East Asian Infrastructure Policy' (Asian Journal of Public Administration, 2017)."
+  },
+  "https://example.com/reviews/stochastic-governance": {
+    "url": "https://example.com/reviews/stochastic-governance",
+    "title": "Review: Stochastic Governance — Journal of Policy Analysis and Management",
+    "text": "Reviewed by Professor C. Walker, Princeton SPIA. JPAM Vol. 41, No. 2, Spring 2022, pp. 641-644.\n\n'Papadimitriou and Nishihara have written the most technically demanding contribution to policy design theory of the past decade. The adaptive policy envelope framework, introduced in Chapter 3, is a genuine and durable addition to the analytical toolkit. The Netherlands coastal infrastructure case study illuminates how APED handles the distinction between aleatory and epistemic uncertainty — a distinction conventional cost-benefit analysis systematically conflates.\n\nThis is a book for graduate seminars in policy analysis. It will change how researchers think about the structure of policy commitment under uncertainty.' — C. Walker"
+  },
+  "https://example.com/books/stochastic-governance.pdf": {
+    "url": "https://example.com/books/stochastic-governance.pdf",
+    "title": "Stochastic Governance — MIT Press Institutional Access",
+    "text": "Access restricted. Full PDF available through MIT Press institutional subscription. Individual chapter purchase: $12.99. Full book PDF for individual subscribers: $48.00. Preview: First 20 pages of each chapter available without login through MIT Press Direct. For course adoption review, contact mitpolicyadoptions@mit.edu for a watermarked PDF."
+  },
+  "https://example.com/worldcat/stochastic-governance": {
+    "url": "https://example.com/worldcat/stochastic-governance",
+    "title": "Stochastic Governance — WorldCat",
+    "text": "WorldCat record. Stochastic Governance / Vasilis Papadimitriou, Sakura Nishihara. Cambridge, MA: MIT Policy Press, 2021. 312 pages. ISBN: 9780262038471. OCLC: 1237419803. 289 libraries worldwide."
+  },
+  "https://example.com/isbn/9780262038471": {
+    "url": "https://example.com/isbn/9780262038471",
+    "title": "ISBN 978-0-26203-847-1 — Stochastic Governance",
+    "text": "ISBN: 978-0-26203-847-1. Title: Stochastic Governance: Probabilistic Approaches to Policy Design Under Uncertainty. Authors: Papadimitriou, Vasilis; Nishihara, Sakura. Publisher: MIT Policy Press. Publication date: February 2021. Format: Hardcover, 312 pages. Paperback ISBN: 978-0-26203-848-8. Price: $78.00 USD (hardcover), $34.00 USD (paperback)."
+  },
+
+  "https://example.com/books/meridian-glass": {
+    "url": "https://example.com/books/meridian-glass",
+    "title": "Meridian Glass — Cassava Press",
+    "text": "Publisher page. Meridian Glass by Ama Owusu. Cassava Press, 2023. Paperback, 287 pages. ISBN: 978-1-73625-441-8.\n\nKofi Boateng built his glass-blowing workshop on the outskirts of Kumasi in 1963. Meridian Glass follows three generations of the Boateng-Asante family through the workshop Kofi built: his daughter Abena, who inherits it during the structural adjustment years of the 1990s and nearly loses it; and Abena's daughter Nana, who returns to it in the present day.\n\nPraise: 'One of the most impressive debuts from West Africa in years.' — The Africa Report. 'Precise, unhurried, and quietly devastating.' — Brittle Paper. Longlisted, Etisalat Prize for Literature, 2023."
+  },
+  "https://example.com/authors/ama-owusu": {
+    "url": "https://example.com/authors/ama-owusu",
+    "title": "Ama Owusu — Author Profile, Cassava Press",
+    "text": "Ama Owusu was born in Kumasi, Ghana in 1990. She studied English and Linguistics at the University of Ghana (BA, 2012) and completed an MFA in Creative Writing at the University of East Anglia (2015). Short fiction in Granta ('The Glass Hours,' 2019), Jalada Africa, and Transition Magazine. Meridian Glass (Cassava Press, 2023) is her debut novel, longlisted for the Etisalat Prize for Literature, 2023. She lives in Accra."
+  },
+  "https://example.com/reviews/meridian-glass": {
+    "url": "https://example.com/reviews/meridian-glass",
+    "title": "Review: Meridian Glass — Brittle Paper",
+    "text": "Review by Doreen Baingana. Brittle Paper, March 2023. Editor's Choice.\n\n'Ama Owusu's debut is built around a simple and quietly devastating premise: a family is the thing that passes through a workshop. Three generations of the Boateng-Asante women move through the same physical space in different decades, and Owusu uses the continuity of the workshop to make visible what changes and what does not.\n\nThe glass is everywhere in this novel, and it is never merely symbolic. Owusu is exact about the craft — the temperature of the furnace, the timing of the gather, the way a piece can look finished and then crack at the annealing stage — and this exactness gives the metaphorical weight its purchase.' — Doreen Baingana"
+  },
+  "https://example.com/books/meridian-glass.pdf": {
+    "url": "https://example.com/books/meridian-glass.pdf",
+    "title": "Meridian Glass — Digital Edition (Access Required)",
+    "text": "Digital edition of Meridian Glass by Ama Owusu. Cassava Press, 2023. DRM-protected ePub and PDF. Price: $12.99 USD. Library editions available through BiblioBoard and Overdrive. DRM-protected files require authentication. First chapter preview available without login on publisher site."
+  },
+  "https://example.com/interviews/ama-owusu": {
+    "url": "https://example.com/interviews/ama-owusu",
+    "title": "Ama Owusu — Interview, Brittle Paper",
+    "text": "Interview conducted by Doreen Baingana, April 2023.\n\n'I grew up near a glass workshop in Kumasi — a place that made vessels for palm wine and water storage, practical things. There was a man there who had learned the craft in the 1960s from someone who had traveled to Italy. He had adapted it completely to local materials and local needs. What he made was not Murano glass. It was something specific to that place and that time. That's where the novel began.\n\nThe structural adjustment chapters — Abena's section — were the hardest to write. I was writing about a historical period I hadn't lived through. But it was also the section that clarified what the novel was actually about: not inheritance as sentiment, but inheritance as economic fact.\n\nI'm not interested in nostalgia. The workshop in this book is not a symbol of better times. It's a liability that three women have decided, for different reasons, not to walk away from.'"
+  },
+  "https://example.com/worldcat/meridian-glass": {
+    "url": "https://example.com/worldcat/meridian-glass",
+    "title": "Meridian Glass — WorldCat",
+    "text": "WorldCat record. Meridian Glass / Ama Owusu. Accra: Cassava Press, 2023. 287 pages. ISBN: 9781736254418. OCLC: 1371284019. 61 library holdings. Request via interlibrary loan. Also listed in African Books Collective catalogue."
+  },
+  "https://example.com/isbn/9781736254418": {
+    "url": "https://example.com/isbn/9781736254418",
+    "title": "ISBN 978-1-73625-441-8 — Meridian Glass",
+    "text": "ISBN: 978-1-73625-441-8. Title: Meridian Glass. Author: Owusu, Ama. Publisher: Cassava Press. Publication date: January 2023. Format: Paperback, 287 pages. eBook ISBN: 978-1-73625-442-5. Price: $18.00 USD."
   }
 }

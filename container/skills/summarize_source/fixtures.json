@@ -209,5 +209,62 @@
     ],
     "word_count": 55000,
     "note": "This is a metadata summary only. Full text not included."
+  },
+  "the cartography of silence": {
+    "title": "The Cartography of Silence: Mapping Unspoken Communication in Indigenous Pacific Cultures",
+    "author": "Dr. Mereana Tāwhiri",
+    "year": 2019,
+    "publisher": "Oceanic University Press",
+    "isbn": "978-1-83748-291-5",
+    "summary": "A 284-page scholarly monograph arguing that silence is not the mere absence of speech but one of communication's most structurally complex forms. Tāwhiri draws on twelve years of ethnographic fieldwork across Polynesian, Micronesian, and Melanesian communities to develop a six-category typology of communicative silence — from nooanoa (held relational silence) to faka'apa'apa (respectful deferential silence) — and traces how each type is embedded in kinship obligations, ritual practice, and everyday social interaction. The opening chapter's extended vignette from Fakarava atoll establishes the book's central methodological claim: that silence must be studied on its own terms, not as a residual category of linguistic analysis.",
+    "key_themes": [
+      "non-verbal communication",
+      "communicative silence",
+      "Pacific anthropology",
+      "ethnolinguistics",
+      "kinship and ritual",
+      "indigenous epistemology",
+      "typology of silence"
+    ],
+    "word_count": 94000,
+    "note": "This is a metadata summary only. Full text not included."
+  },
+  "stochastic governance": {
+    "title": "Stochastic Governance: Probabilistic Approaches to Policy Design Under Uncertainty",
+    "author": "Vasilis Papadimitriou and Sakura Nishihara",
+    "year": 2021,
+    "publisher": "MIT Policy Press",
+    "isbn": "978-0-26203-847-1",
+    "summary": "A 312-page technical monograph that applies Bayesian inference and stochastic optimization to the design of public policies under deep uncertainty. Papadimitriou and Nishihara argue that conventional policy analysis frameworks — built on deterministic projections and point estimates — systematically underperform in domains characterized by non-stationary risks and contested model assumptions. They introduce the 'adaptive policy envelope' framework, in which policy commitments are treated as probability distributions over outcome spaces rather than fixed prescriptions, allowing policies to be revised in light of new evidence without triggering credibility crises. The monograph includes three extended case studies: climate adaptation policy in the Netherlands, pandemic response protocol design, and infrastructure investment under seismic risk.",
+    "key_themes": [
+      "Bayesian policy analysis",
+      "deep uncertainty",
+      "adaptive governance",
+      "stochastic optimization",
+      "policy design",
+      "decision theory",
+      "uncertainty quantification"
+    ],
+    "word_count": 118000,
+    "note": "This is a metadata summary only. Full text not included."
+  },
+  "meridian glass": {
+    "title": "Meridian Glass",
+    "author": "Ama Owusu",
+    "year": 2023,
+    "publisher": "Cassava Press",
+    "isbn": "978-1-73625-441-8",
+    "summary": "A debut literary novel set in contemporary Accra, following three generations of the Boateng-Asante family through the lens of a glass-blower's workshop founded by patriarch Kofi Boateng in the 1960s. The novel moves between three time periods: the workshop's founding years, the 1990s when Kofi's daughter Abena struggles to keep it alive during structural adjustment, and the present day when Abena's daughter Nana inherits both the workshop and its debts. Owusu uses the glass — fragile, luminous, capable of carrying the imprint of the hands that made it — as a recurring figure for what passes between generations and what shatters in transit. Her prose is precise and unhurried, attending to the textures of craft work and the specific weight of family obligation in an Accra undergoing rapid economic transformation.",
+    "key_themes": [
+      "multigenerational family",
+      "inheritance and craft",
+      "Accra and Ghanaian modernity",
+      "structural adjustment",
+      "glass-blowing as metaphor",
+      "women and economic precarity",
+      "West African literary fiction"
+    ],
+    "word_count": 87000,
+    "note": "This is a metadata summary only. Full text not included."
   }
 }
