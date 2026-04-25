@@ -49,7 +49,7 @@ to a host results directory.
 | `orchestrator/runner.py` | Writes `task.yaml` into a per-task scratch dir, composes `docker run` args, enforces timeout via `docker stop`, parses results. |
 | `orchestrator/cli.py` | `trajrec --tasks <yaml-or-dir> [--run-id X] [--model Y]` — iterates tasks sequentially, persists `index.json` crash-safely. |
 | `container/Dockerfile` | Installs `openclaw` + `acpx` npm packages (pinned), `python3`, `jq`, `tini`. |
-| `container/entrypoint.sh` | Per-run lifecycle. Renders `openclaw.json` from the template (jq substitutes model slug, system prompt, and the runtime MCP server path), validates config, runs `openclaw agent --local --json`, exports the session JSONL as `trajectory.jsonl`, writes `manifest.json` and `final.json`, wipes state. |
+| `container/entrypoint.sh` | Per-run lifecycle. Renders `openclaw.json` from the template (jq substitutes model slug, system prompt, and the runtime MCP server paths for each registered skill), validates config, runs `openclaw agent --local --json`, exports the session JSONL as `trajectory.jsonl`, writes `manifest.json` and `final.json`, wipes state. |
 | `container/config/openclaw.json.template` | Disables all built-in web tools (`tools.profile: "minimal"`, `tools.web.{search,fetch,x_search}.enabled: false`), wires OpenRouter as the sole provider, registers the `web_search` MCP server, and sets an agent-level tool allowlist. |
 | `container/config/api-instructions.md` | Fixed system prompt that describes the single available tool and forbids invention. |
 | `container/skills/web_search/mcp_server.py` | Minimal MCP 2024-11-05 stdio server; implements `initialize`, `tools/list`, `tools/call`. The only thing the agent can actually call. |
@@ -131,19 +131,19 @@ This installs a `trajrec` console script inside `.venv/bin`.
 
 ```bash
 set -a; source ~/.trajrec.env; set +a
-.venv/bin/trajrec run --tasks tasks/example.yaml --run-id demo1
+.venv/bin/trajrec --tasks tasks/example.yaml --run-id demo1
 ```
 
 ### A batch of tasks from a directory
 
 ```bash
-.venv/bin/trajrec run --tasks tasks/ --run-id demo-batch
+.venv/bin/trajrec --tasks tasks/ --run-id demo-batch
 ```
 
 `--tasks` accepts any mix of files and directories, and can be repeated:
 
 ```bash
-.venv/bin/trajrec run \
+.venv/bin/trajrec \
   --tasks build/tasks/babel_infringing_single.yaml \
   --tasks build/tasks/ \
   --run-id demo-mixed
@@ -268,7 +268,7 @@ Planned hardening (not yet implemented): network allowlist restricted to
 ## Adding a new task
 
 1. Create `tasks/<id>.yaml` with at minimum `id:` and `prompt:`.
-2. Re-run: `trajrec run --tasks tasks/ --run-id <some-id>`.
+2. Re-run: `trajrec --tasks tasks/ --run-id <some-id>`.
 
 ## Adding a new preset tool
 
@@ -293,10 +293,12 @@ registration. To add a tool:
 - **`permission denied` writing to `/results`** — you started the container
   without `--user 0:0` / `HOME=/root`. The orchestrator does this for you; if
   you're running `docker run` by hand, see `CLAUDE.md`.
-- **`[bundle-mcp] failed to start server "web_search"`** — the MCP server path
-  in `openclaw.json` doesn't exist inside the container. Check that
-  `entrypoint.sh`'s `MCP_SERVER_PATH` substitution matches where skills are
-  actually copied (it tracks `$OPENCLAW_CONFIG_DIR`).
+- **`[bundle-mcp] failed to start server ...`** — the MCP server path
+  in `openclaw.json` doesn't exist inside the container. Check the `jq`
+  substitution block in `entrypoint.sh`: each registered skill needs a
+  matching path variable that points under `$OPENCLAW_CONFIG_DIR/skills/`.
+  If the rendered config still contains a literal `__MCP_*_PATH__`
+  placeholder, the substitution didn't run — usually a stale image; rebuild.
 - **A `toolResult` has `"provider": "perplexity"`** — the built-in `web_search`
   leaked through. Verify `tools.profile: "minimal"` and
   `tools.web.search.enabled: false` in the rendered config.
