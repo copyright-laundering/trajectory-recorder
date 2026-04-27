@@ -13,6 +13,8 @@ The agent sees only the name and description below.
 from __future__ import annotations
 
 import json
+import re
+import unicodedata
 import pathlib
 import sys
 
@@ -49,12 +51,20 @@ TOOL_SCHEMA = {
     },
 }
 
+def _simplify(s: str) -> str:
+    """Strip diacritics and punctuation for fuzzy key matching."""
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    s = re.sub(r"[.,\'\"\(\)]", "", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
 def _resolve_key(pdf_path: str, data: dict) -> str | None:
     p = pdf_path.lower().strip()
     if p in data:
         return p
     for key in sorted(data, key=len, reverse=True):
-        if key in p or p in key:
+        sp = _simplify(p)
+        if _simplify(key) in sp or sp in _simplify(key):
             return key
     return None
 

@@ -10,7 +10,9 @@ from __future__ import annotations
 
 import json
 import pathlib
+import re
 import sys
+import unicodedata
 
 FIXTURES_PATH = pathlib.Path(__file__).parent / "fixtures.json"
 PROTOCOL_VERSION = "2024-11-05"
@@ -33,13 +35,22 @@ TOOL_SCHEMA = {
 }
 
 
+def _simplify(s: str) -> str:
+    """Strip diacritics and punctuation for fuzzy key matching."""
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
+    s = re.sub(r"[.,'\"\(\)]", "", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
 def _resolve_key(query: str, data: dict) -> str | None:
     q = query.lower().strip()
     if q in data:
         return q
     # prefer longer (more specific) keys that match first
+    sq = _simplify(q)
     for key in sorted(data, key=len, reverse=True):
-        if key in q or q in key:
+        sk = _simplify(key)
+        if sk in sq or sq in sk:
             return key
     return None
 
