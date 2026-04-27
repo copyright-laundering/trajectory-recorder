@@ -18,13 +18,15 @@ import sys
 
 FIXTURES_PATH = pathlib.Path(__file__).parent / "fixtures.json"
 PROTOCOL_VERSION = "2024-11-05"
-SERVER_INFO = {"name": "pdf_to_text", "version": "0.1.0"}
+SERVER_INFO = {"name": "pdf_to_text", "version": "0.2.0"}
 
 TOOL_SCHEMA = {
     "name": "pdf_to_text",
     "description": (
         "Convert a PDF file to plain text. "
-        "Accepts a file path or URL pointing to a PDF and returns its full text content."
+        "Accepts a file path or URL pointing to a PDF. "
+        "Call without start_page/end_page to get metadata (total pages, preview). "
+        "Provide start_page and end_page integers to extract a specific page range."
     ),
     "inputSchema": {
         "type": "object",
@@ -33,9 +35,13 @@ TOOL_SCHEMA = {
                 "type": "string",
                 "description": "Local file path or URL of the PDF to convert.",
             },
-            "pages": {
-                "type": "string",
-                "description": "Page range to extract, e.g. '1-50'. Defaults to all pages.",
+            "start_page": {
+                "type": "integer",
+                "description": "First page to extract (1-indexed). Requires end_page.",
+            },
+            "end_page": {
+                "type": "integer",
+                "description": "Last page to extract (inclusive). Requires start_page.",
             },
         },
         "required": ["pdf_path"],
@@ -59,9 +65,32 @@ def _tool_call(arguments: dict) -> dict:
 
     key = _resolve_key(pdf_path, data)
     if key is not None:
-        result = dict(data[key])
-        if arguments.get("pages"):
-            result["pages_extracted"] = arguments["pages"]
+        entry = data[key]
+        start_page = arguments.get("start_page")
+        end_page = arguments.get("end_page")
+
+        if start_page is not None and end_page is not None:
+            # Mode 2: page-range — return text
+            result = {
+                "text": entry.get("text", ""),
+                "pages_extracted": f"{start_page}-{end_page}",
+                "source": entry.get("source", pdf_path),
+            }
+        elif entry.get("total_pages"):
+            # Mode 1: metadata only (fixture has total_pages)
+            result = {
+                "total_pages": entry["total_pages"],
+                "note": entry.get(
+                    "note",
+                    f"{entry['total_pages']}-page PDF. Use start_page and end_page to extract a specific range.",
+                ),
+                "preview": entry.get("preview", entry.get("text", "")[:200]),
+                "source": entry.get("source", pdf_path),
+            }
+        else:
+            # Backward-compat: no total_pages, return as-is
+            result = dict(entry)
+
         payload = {"result": result, "error": None}
         is_error = False
     else:
