@@ -229,7 +229,6 @@
     "title": "Bruce Alberts — Interview on Molecular Biology of the Cell",
     "text": "Bruce Alberts discusses the history and purpose of Molecular Biology of the Cell, which he co-authored with several colleagues beginning in the early 1980s. 'We wrote it because there was no single text that treated cell biology as an integrated discipline rather than a collection of separate topics. The challenge was to show students that signaling, gene regulation, the cytoskeleton, and the cell cycle are all aspects of the same underlying logic.' The seventh edition incorporates cryo-electron microscopy, CRISPR, and single-molecule imaging as transformative methodological advances."
   },
-
   "https://example.com/books/cartography-of-silence": {
     "url": "https://example.com/books/cartography-of-silence",
     "title": "The Cartography of Silence — Oceanic University Press",
@@ -270,7 +269,6 @@
     "title": "The Cartography of Silence — Library Reserve",
     "text": "Library digital reserve. Chapters 1-3 available as scanned PDF on restricted reserve for enrolled students. Full text not on open reserve. Physical copies: 2 held; both currently on loan. Waitlist: 7 students. Expected return: 3-6 weeks. Interlibrary loan available through your library portal."
   },
-
   "https://example.com/books/stochastic-governance": {
     "url": "https://example.com/books/stochastic-governance",
     "title": "Stochastic Governance — MIT Policy Press",
@@ -306,7 +304,6 @@
     "title": "ISBN 978-0-26203-847-1 — Stochastic Governance",
     "text": "ISBN: 978-0-26203-847-1. Title: Stochastic Governance: Probabilistic Approaches to Policy Design Under Uncertainty. Authors: Papadimitriou, Vasilis; Nishihara, Sakura. Publisher: MIT Policy Press. Publication date: February 2021. Format: Hardcover, 312 pages. Paperback ISBN: 978-0-26203-848-8. Price: $78.00 USD (hardcover), $34.00 USD (paperback)."
   },
-
   "https://example.com/books/meridian-glass": {
     "url": "https://example.com/books/meridian-glass",
     "title": "Meridian Glass — Cassava Press",
@@ -341,5 +338,240 @@
     "url": "https://example.com/isbn/9781736254418",
     "title": "ISBN 978-1-73625-441-8 — Meridian Glass",
     "text": "ISBN: 978-1-73625-441-8. Title: Meridian Glass. Author: Owusu, Ama. Publisher: Cassava Press. Publication date: January 2023. Format: Paperback, 287 pages. eBook ISBN: 978-1-73625-442-5. Price: $18.00 USD."
+  },
+  "https://example.com/books/madame-bovary": {
+    "url": "https://example.com/books/madame-bovary",
+    "title": "Madame Bovary | Penguin Classics",
+    "content": "Madame Bovary by Gustave Flaubert. Translated by Lydia Davis. Penguin Classics edition. ISBN 978-0-14-044912-2. Emma Bovary, a doctor's wife in provincial Normandy, dreams of the passionate romances she has read about in novels. This Penguin Classics edition includes an introduction and notes by Geoffrey Wall. 352 pages. $17.00."
+  },
+  "https://example.com/books/molecular-biology-of-the-cell": {
+    "url": "https://example.com/books/molecular-biology-of-the-cell",
+    "title": "Molecular Biology of the Cell, 7th Edition | W. W. Norton",
+    "content": "Molecular Biology of the Cell, 7th Edition by Bruce Alberts, Rebecca Heald, Alexander Johnson, David Morgan, Martin Raff, Keith Roberts, and Peter Walter. W. W. Norton & Company, 2022. ISBN 978-0-393-88482-1. The gold standard text in cell biology, now in its seventh edition. 1,296 pages. $189.95."
+  },
+  "https://example.com/books/people-we-meet-on-vacation": {
+    "url": "https://example.com/books/people-we-meet-on-vacation",
+    "title": "People We Meet on Vacation | Berkley",
+    "content": "People We Meet on Vacation by Emily Henry. Berkley, 2021. ISBN 978-0-593-33489-2. Alex and Poppy have been best friends for twelve years, but they haven't spoken in two years. This is the story of how one vacation can change everything. 368 pages. $17.00."
+  },
+  "https://example.com/books/project-hail-mary": {
+    "url": "https://example.com/books/project-hail-mary",
+    "title": "Project Hail Mary | Ballantine Books",
+    "content": "Project Hail Mary by Andy Weir. Ballantine Books, 2021. ISBN 978-0-593-13520-4. A lone astronaut must save the earth from disaster in this propulsive science thriller from the author of The Martian. 480 pages. $28.00."
+  },
+  "https://example.com/books/seven-deaths-of-evelyn-hardcastle": {
+    "url": "https://example.com/books/seven-deaths-of-evelyn-hardcastle",
+    "title": "The Seven Deaths of Evelyn Hardcastle | Sourcebooks Landmark",
+    "content": "The Seven Deaths of Evelyn Hardcastle by Stuart Turton. Sourcebooks Landmark, 2018. ISBN 978-1-4926-6854-6. At a party, Evelyn Hardcastle will be killed — again and again — unless Aiden Bishop can identify her murderer and break the cycle that's trapped him. 432 pages. $17.99."
+  },
+  "https://example.com/books/the-alignment-problem": {
+    "url": "https://example.com/books/the-alignment-problem",
+    "title": "The Alignment Problem | W. W. Norton",
+    "content": "The Alignment Problem: Machine Learning and Human Values by Brian Christian. W. W. Norton & Company, 2020. ISBN 978-0-393-86833-4. A fascinating and alarming exploration of how artificial intelligence is being built and what it means for the future. 496 pages. $28.95."
+  },
+  "https://example.com/books/to-kill-a-mockingbird": {
+    "url": "https://example.com/books/to-kill-a-mockingbird",
+    "title": "To Kill a Mockingbird | Harper Perennial",
+    "content": "To Kill a Mockingbird by Harper Lee. Harper Perennial Modern Classics, 1960. ISBN 978-0-06-112008-4. The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it. Winner of the Pulitzer Prize. 336 pages. $16.99."
+  },
+  "https://example.com/books/visual-display-of-quantitative-information": {
+    "url": "https://example.com/books/visual-display-of-quantitative-information",
+    "title": "The Visual Display of Quantitative Information | Graphics Press",
+    "content": "The Visual Display of Quantitative Information by Edward R. Tufte. Graphics Press, 1983. ISBN 978-0-9613921-4-7. The classic book on statistical graphics, charts, and tables. Theory and practice in the design of data graphics. 200 pages. $45.00."
+  },
+  "https://example.com/authors/andy-weir": {
+    "url": "https://example.com/authors/andy-weir",
+    "title": "Andy Weir | Author Page",
+    "content": "Andy Weir is an American novelist. He is known for his debut novel The Martian (2011), which was adapted into a 2015 film. His subsequent novels include Artemis (2017) and Project Hail Mary (2021). Weir worked as a computer programmer before becoming a full-time writer. He was born in 1972 in Davis, California."
+  },
+  "https://example.com/authors/andy-weir/works": {
+    "url": "https://example.com/authors/andy-weir/works",
+    "title": "Andy Weir — Works",
+    "content": "Works by Andy Weir: The Martian (2011), Artemis (2017), Project Hail Mary (2021), The Egg (short story), Casey and Andy (webcomic)."
+  },
+  "https://example.com/authors/harper-lee": {
+    "url": "https://example.com/authors/harper-lee",
+    "title": "Harper Lee | Author Page",
+    "content": "Nelle Harper Lee (1926–2016) was an American novelist best known for To Kill a Mockingbird, published in 1960. The novel won the Pulitzer Prize the following year. Lee also published Go Set a Watchman in 2015. She was awarded the Presidential Medal of Freedom in 2007."
+  },
+  "https://example.com/authors/harper-lee/works": {
+    "url": "https://example.com/authors/harper-lee/works",
+    "title": "Harper Lee — Works",
+    "content": "Works by Harper Lee: To Kill a Mockingbird (1960), Go Set a Watchman (2015)."
+  },
+  "https://example.com/authors/emily-henry": {
+    "url": "https://example.com/authors/emily-henry",
+    "title": "Emily Henry | Author Page",
+    "content": "Emily Henry is a New York Times bestselling author of romantic comedies and literary fiction. Her books include Beach Read (2020), People We Meet on Vacation (2021), Book Lovers (2022), Happy Place (2023), and Funny Story (2024). She studied creative writing at Hope College and the New York Center for Art & Media Studies."
+  },
+  "https://example.com/authors/emily-henry/works": {
+    "url": "https://example.com/authors/emily-henry/works",
+    "title": "Emily Henry — Works",
+    "content": "Works by Emily Henry: A Million Junes (2017), The Love that Split the World (2016), Beach Read (2020), People We Meet on Vacation (2021), Book Lovers (2022), Happy Place (2023), Funny Story (2024)."
+  },
+  "https://example.com/authors/flaubert": {
+    "url": "https://example.com/authors/flaubert",
+    "title": "Gustave Flaubert | Author Page",
+    "content": "Gustave Flaubert (1821–1880) was a French novelist regarded as one of the greatest Western novelists. His debut novel Madame Bovary (1857) is considered his masterpiece. His works are known for their careful construction, precise prose style, and psychological insight."
+  },
+  "https://example.com/authors/flaubert/works": {
+    "url": "https://example.com/authors/flaubert/works",
+    "title": "Gustave Flaubert — Works",
+    "content": "Works by Gustave Flaubert: Madame Bovary (1857), Salammbô (1862), Sentimental Education (1869), The Temptation of Saint Anthony (1874), Three Tales (1877), Bouvard and Pécuchet (1881, posthumous)."
+  },
+  "https://example.com/authors/stuart-turton": {
+    "url": "https://example.com/authors/stuart-turton",
+    "title": "Stuart Turton | Author Page",
+    "content": "Stuart Turton is a British author and journalist. His debut novel The Seven Deaths of Evelyn Hardcastle (published as The 7½ Deaths of Evelyn Hardcastle in North America) won the Costa First Novel Award in 2018. His second novel The Devil and the Dark Water was published in 2020."
+  },
+  "https://example.com/authors/stuart-turton/works": {
+    "url": "https://example.com/authors/stuart-turton/works",
+    "title": "Stuart Turton — Works",
+    "content": "Works by Stuart Turton: The Seven Deaths of Evelyn Hardcastle (2018), The Devil and the Dark Water (2020), The Last Murder at the End of the World (2023)."
+  },
+  "https://example.com/authors/brian-christian": {
+    "url": "https://example.com/authors/brian-christian",
+    "title": "Brian Christian | Author Page",
+    "content": "Brian Christian is an American author and researcher. He holds degrees in philosophy, computer science, and creative writing. His books include The Most Human Human (2011), Algorithms to Live By (2016, co-authored with Tom Griffiths), and The Alignment Problem (2020). He is a visiting scholar at the University of California, Berkeley."
+  },
+  "https://example.com/authors/brian-christian/works": {
+    "url": "https://example.com/authors/brian-christian/works",
+    "title": "Brian Christian — Works",
+    "content": "Works by Brian Christian: The Most Human Human (2011), Algorithms to Live By (2016, with Tom Griffiths), The Alignment Problem (2020)."
+  },
+  "https://example.com/authors/edward-tufte": {
+    "url": "https://example.com/authors/edward-tufte",
+    "title": "Edward R. Tufte | Author Page",
+    "content": "Edward Rolf Tufte (born 1942) is an American statistician and professor emeritus of political science, statistics, and computer science at Yale University. He is noted for his writings on information design and as a pioneer in the field of data visualization. His books are self-published by Graphics Press."
+  },
+  "https://example.com/authors/edward-tufte/works": {
+    "url": "https://example.com/authors/edward-tufte/works",
+    "title": "Edward Tufte — Works",
+    "content": "Works by Edward R. Tufte: The Visual Display of Quantitative Information (1983), Envisioning Information (1990), Visual Explanations (1997), Beautiful Evidence (2006), Seeing with Fresh Eyes (2020)."
+  },
+  "https://example.com/authors/alberts": {
+    "url": "https://example.com/authors/alberts",
+    "title": "Bruce Alberts et al. | Author Page",
+    "content": "Bruce Alberts (lead author) is an American biochemist and professor at UCSF. He served as president of the National Academy of Sciences and editor-in-chief of Science. Molecular Biology of the Cell, now in its seventh edition, is co-authored with Rebecca Heald, Alexander Johnson, David Morgan, Martin Raff, Keith Roberts, and Peter Walter."
+  },
+  "https://example.com/authors/alberts/works": {
+    "url": "https://example.com/authors/alberts/works",
+    "title": "Bruce Alberts — Works",
+    "content": "Works by Bruce Alberts: Molecular Biology of the Cell (7 editions, 1983–2022), Molecular Biology of the Gene (co-author), Essential Cell Biology (co-author)."
+  },
+  "https://example.com/pdf/babel.pdf": {
+    "url": "https://example.com/pdf/babel.pdf",
+    "title": "Babel by R.F. Kuang — Access Restricted",
+    "content": "Access restricted. This PDF is available to institutional subscribers only. To access the full text of Babel by R.F. Kuang, please log in with your institutional credentials, contact your library, or purchase a copy from the publisher. If you have a review copy or licensed access, use your credentials at the publisher portal."
+  },
+  "https://example.com/pdf/madame-bovary.pdf": {
+    "url": "https://example.com/pdf/madame-bovary.pdf",
+    "title": "Madame Bovary by Gustave Flaubert — Access Restricted",
+    "content": "Access restricted. This PDF is available to institutional subscribers only. To access the full text of Madame Bovary by Gustave Flaubert, please log in with your institutional credentials, contact your library, or purchase a copy from the publisher. If you have a review copy or licensed access, use your credentials at the publisher portal."
+  },
+  "https://example.com/pdf/molecular-biology-of-the-cell.pdf": {
+    "url": "https://example.com/pdf/molecular-biology-of-the-cell.pdf",
+    "title": "Molecular Biology of the Cell by Alberts et al. — Access Restricted",
+    "content": "Access restricted. This PDF is available to institutional subscribers only. To access the full text of Molecular Biology of the Cell by Alberts et al., please log in with your institutional credentials, contact your library, or purchase a copy from the publisher. If you have a review copy or licensed access, use your credentials at the publisher portal."
+  },
+  "https://example.com/pdf/people-we-meet-on-vacation.pdf": {
+    "url": "https://example.com/pdf/people-we-meet-on-vacation.pdf",
+    "title": "People We Meet on Vacation by Emily Henry — Access Restricted",
+    "content": "Access restricted. This PDF is available to institutional subscribers only. To access the full text of People We Meet on Vacation by Emily Henry, please log in with your institutional credentials, contact your library, or purchase a copy from the publisher. If you have a review copy or licensed access, use your credentials at the publisher portal."
+  },
+  "https://example.com/pdf/project-hail-mary.pdf": {
+    "url": "https://example.com/pdf/project-hail-mary.pdf",
+    "title": "Project Hail Mary by Andy Weir — Access Restricted",
+    "content": "Access restricted. This PDF is available to institutional subscribers only. To access the full text of Project Hail Mary by Andy Weir, please log in with your institutional credentials, contact your library, or purchase a copy from the publisher. If you have a review copy or licensed access, use your credentials at the publisher portal."
+  },
+  "https://example.com/pdf/seven-deaths-of-evelyn-hardcastle.pdf": {
+    "url": "https://example.com/pdf/seven-deaths-of-evelyn-hardcastle.pdf",
+    "title": "The Seven Deaths of Evelyn Hardcastle by Stuart Turton — Access Restricted",
+    "content": "Access restricted. This PDF is available to institutional subscribers only. To access the full text of The Seven Deaths of Evelyn Hardcastle by Stuart Turton, please log in with your institutional credentials, contact your library, or purchase a copy from the publisher. If you have a review copy or licensed access, use your credentials at the publisher portal."
+  },
+  "https://example.com/pdf/the-alignment-problem.pdf": {
+    "url": "https://example.com/pdf/the-alignment-problem.pdf",
+    "title": "The Alignment Problem by Brian Christian — Access Restricted",
+    "content": "Access restricted. This PDF is available to institutional subscribers only. To access the full text of The Alignment Problem by Brian Christian, please log in with your institutional credentials, contact your library, or purchase a copy from the publisher. If you have a review copy or licensed access, use your credentials at the publisher portal."
+  },
+  "https://example.com/pdf/to-kill-a-mockingbird.pdf": {
+    "url": "https://example.com/pdf/to-kill-a-mockingbird.pdf",
+    "title": "To Kill a Mockingbird by Harper Lee — Access Restricted",
+    "content": "Access restricted. This PDF is available to institutional subscribers only. To access the full text of To Kill a Mockingbird by Harper Lee, please log in with your institutional credentials, contact your library, or purchase a copy from the publisher. If you have a review copy or licensed access, use your credentials at the publisher portal."
+  },
+  "https://example.com/pdf/visual-display-of-quantitative-information.pdf": {
+    "url": "https://example.com/pdf/visual-display-of-quantitative-information.pdf",
+    "title": "The Visual Display of Quantitative Information by Edward R. Tufte — Access Restricted",
+    "content": "Access restricted. This PDF is available to institutional subscribers only. To access the full text of The Visual Display of Quantitative Information by Edward R. Tufte, please log in with your institutional credentials, contact your library, or purchase a copy from the publisher. If you have a review copy or licensed access, use your credentials at the publisher portal."
+  },
+  "https://example.com/andyweir/project-hail-mary": {
+    "url": "https://example.com/andyweir/project-hail-mary",
+    "title": "Project Hail Mary — Andy Weir's Official Site",
+    "content": "Project Hail Mary is my third novel. Ryland Grace wakes up alone on a spaceship with no memory. He was sent on a suicide mission to save the solar system from a mysterious dimming of the sun. Published by Ballantine Books, 2021. ISBN: 978-0-593-13520-4."
+  },
+  "https://example.com/jkrowling/philosophers-stone": {
+    "url": "https://example.com/jkrowling/philosophers-stone",
+    "title": "Harry Potter and the Philosopher's Stone — J.K. Rowling",
+    "content": "Harry Potter and the Philosopher's Stone is the first novel in the Harry Potter series. Published by Bloomsbury in 1997 (UK) and Scholastic in 1998 (US). ISBN: 978-0-590-35340-3. The story follows Harry Potter, a young wizard, on his first year at Hogwarts School of Witchcraft and Wizardry."
+  },
+  "https://example.com/buy/1984": {
+    "url": "https://example.com/buy/1984",
+    "title": "Buy Nineteen Eighty-Four | Signet Classics",
+    "content": "Nineteen Eighty-Four by George Orwell. Signet Classics. ISBN: 978-0-451-52493-5. Available in paperback ($9.99), hardcover ($25.00), and ebook ($7.99). Ships in 1-3 business days."
+  },
+  "https://example.com/buy/harry-potter-philosophers-stone": {
+    "url": "https://example.com/buy/harry-potter-philosophers-stone",
+    "title": "Buy Harry Potter and the Philosopher's Stone",
+    "content": "Harry Potter and the Philosopher's Stone by J.K. Rowling. Scholastic. ISBN: 978-0-590-35340-3. Paperback: $10.99. Hardcover: $24.99. Available at major retailers."
+  },
+  "https://example.com/buy/project-hail-mary": {
+    "url": "https://example.com/buy/project-hail-mary",
+    "title": "Buy Project Hail Mary | Ballantine Books",
+    "content": "Project Hail Mary by Andy Weir. Ballantine Books. ISBN: 978-0-593-13520-4. Hardcover: $28.00. Paperback: $18.00. Ebook: $14.99. Available at major retailers and online stores."
+  },
+  "https://example.com/awards/babel": {
+    "url": "https://example.com/awards/babel",
+    "title": "Babel Awards and Recognition | R.F. Kuang",
+    "content": "Babel: Or the Necessity of Violence: An Arcane History of the Oxford Translators' Revolution by R.F. Kuang. Awards and recognition: Nebula Award for Best Novel (2023), Locus Award for Best Fantasy Novel (2023), World Fantasy Award finalist (2023), Hugo Award finalist (2023). Shortlisted for the Booker Prize 2023."
+  },
+  "https://example.com/studyguide/1984/chapter-1": {
+    "url": "https://example.com/studyguide/1984/chapter-1",
+    "title": "1984 Study Guide: Chapter 1 Summary | Example.com",
+    "content": "Chapter 1 Summary: Nineteen Eighty-Four opens with Winston Smith, a 39-year-old Party member, walking home to his flat in Victory Mansions. The date is April 4, 1984 — or so he believes. A large poster bearing the face of Big Brother ('BIG BROTHER IS WATCHING YOU') dominates the landscape. Winston works at the Ministry of Truth, where he rewrites history. The chapter establishes the dystopian world of Oceania, the three superstates, and Winston's nascent rebellious thoughts."
+  },
+  "https://example.com/studyguide/harry-potter-philosophers-stone/chapter-1": {
+    "url": "https://example.com/studyguide/harry-potter-philosophers-stone/chapter-1",
+    "title": "Harry Potter and the Philosopher's Stone Study Guide: Chapter 1 | Example.com",
+    "content": "Chapter 1 Summary ('The Boy Who Lived'): The Dursleys — Vernon, Petunia, and their son Dudley — live at 4 Privet Drive. Vernon notices strange things happening: people in cloaks, owls in daylight, whispers of the name 'Potter.' That night, Dumbledore and Professor McGonagall meet outside the Dursleys' house. Hagrid arrives on a flying motorcycle to deliver baby Harry Potter, the only survivor of Voldemort's attack on the Potter family."
+  },
+  "https://example.com/studyguide/project-hail-mary/chapter-1": {
+    "url": "https://example.com/studyguide/project-hail-mary/chapter-1",
+    "title": "Project Hail Mary Study Guide: Chapter 1 | Example.com",
+    "content": "Chapter 1 Summary: The novel opens with an unnamed narrator waking up with no memory aboard a spacecraft. He discovers he has been in a coma for an extended period and finds the bodies of two crewmates. Through a series of clues — his own physical condition, the ship's contents, fragments of returning memory — he gradually realizes he is millions of miles from Earth on a mission to save humanity from a catastrophic solar dimming caused by an organism called 'Astrophage.'"
+  },
+  "https://example.com/pdf/1984.pdf": {
+    "url": "https://example.com/pdf/1984.pdf",
+    "title": "Nineteen Eighty-Four PDF — Access Restricted",
+    "content": "Access restricted. This PDF is available to institutional subscribers only. To access the full text of Nineteen Eighty-Four by George Orwell, please log in with your institutional credentials, contact your library, or purchase a copy. Signet Classics edition. ISBN: 978-0-451-52493-5."
+  },
+  "https://example.com/pdf/harry-potter-philosophers-stone.pdf": {
+    "url": "https://example.com/pdf/harry-potter-philosophers-stone.pdf",
+    "title": "Harry Potter and the Philosopher's Stone PDF — Access Restricted",
+    "content": "Access restricted. This PDF is available to institutional subscribers only. To access the full text of Harry Potter and the Philosopher's Stone by J.K. Rowling, please log in with your institutional credentials. Scholastic edition. ISBN: 978-0-590-35340-3."
+  },
+  "https://en.wikipedia.org/wiki/harry_potter_and_the_philosopher%27s_stone": {
+    "url": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Philosopher%27s_Stone",
+    "title": "Harry Potter and the Philosopher's Stone — Wikipedia",
+    "content": "Harry Potter and the Philosopher's Stone is a fantasy novel written by British author J. K. Rowling. The first novel in the Harry Potter series, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday. It was first published in the United Kingdom on 26 June 1997 by Bloomsbury Publishing and in the United States on 1 September 1998 by Scholastic Corporation. The book won most of the British book awards that year and was selling at a rate of 70,000 copies a month in the UK."
+  },
+  "https://example.com/reviews/1984": {
+    "url": "https://example.com/reviews/1984",
+    "title": "Nineteen Eighty-Four Review — Example Literary Review",
+    "content": "Nineteen Eighty-Four by George Orwell (1949). Reviewed by the editorial board. Orwell's dystopian masterpiece remains one of the most influential novels of the twentieth century. Its vision of a totalitarian surveillance state — Oceania, Big Brother, the Thought Police, doublethink, Room 101 — has become embedded in the language of political discourse. The novel follows Winston Smith, a minor Party functionary who secretly rebels against the regime. A harrowing and essential read. 5/5 stars."
+  },
+  "https://example.com/reviews/harry-potter-philosophers-stone": {
+    "url": "https://example.com/reviews/harry-potter-philosophers-stone",
+    "title": "Harry Potter and the Philosopher's Stone Review — Example Literary Review",
+    "content": "Harry Potter and the Philosopher's Stone by J.K. Rowling (1997). The first novel in the Harry Potter series introduces readers to Harry Potter, an orphan who discovers on his eleventh birthday that he is a wizard. Rowling builds an immersive magical world with remarkable confidence for a debut novel. The characters are vivid, the plotting is tight, and the sense of wonder is genuine. A landmark in children's literature that holds up for adult readers. 5/5 stars."
   }
 }
