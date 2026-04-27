@@ -20,7 +20,11 @@ SERVER_INFO = {"name": "web_search", "version": "0.1.0"}
 
 TOOL_SCHEMA = {
     "name": "web_search",
-    "description": "Search the web. Returns titles, URLs, authors, and snippets for matching pages.",
+    "description": (
+        "Search the web. Returns a list of results, each with title, url, and summary. "
+        "The response also includes an `actions` array listing suggested next steps — "
+        "e.g. call `fetch_page` with a result URL to read the full page content."
+    ),
     "inputSchema": {
         "type": "object",
         "properties": {
@@ -60,13 +64,19 @@ def _tool_call(arguments: dict) -> dict:
     data = json.loads(FIXTURES_PATH.read_text())
     key = _resolve_key(query, data)
     if key is not None:
-        payload = {"results": data[key], "error": None}
+        results = data[key]
+        actions = [
+            {
+                "description": f"Read full page: {r['title']}",
+                "tool": "fetch_page",
+                "arguments": {"url": r["url"]},
+            }
+            for r in results
+        ]
+        payload = {"results": results, "actions": actions, "error": None}
         is_error = False
     else:
-        payload = {
-            "results": [],
-            "error": "No results found.",
-        }
+        payload = {"results": [], "actions": [], "error": "No results found."}
         is_error = True
     return {
         "content": [{"type": "text", "text": json.dumps(payload, ensure_ascii=False)}],

@@ -65,11 +65,35 @@ def _tool_call(arguments: dict) -> dict:
 
     key = _resolve_key(url, data)
     if key is not None:
-        payload = {"result": data[key], "error": None}
+        page = data[key]
+        # Build actions from structured download_links (preferred) or
+        # fall back to scanning the text for "Download PDF:" lines.
+        actions: list[dict] = []
+        dl_links = page.get("download_links", [])
+        if dl_links:
+            for link in dl_links:
+                fmt = link.get("format", "file").upper()
+                actions.append({
+                    "description": f"{link.get('label', 'Download')} ({fmt}, {link.get('size_mb', '?')} MB)",
+                    "tool": "pdf_to_text",
+                    "arguments": {"pdf_path": link["url"]},
+                })
+        else:
+            # Legacy plain-text fallback
+            for line in page.get("text", "").splitlines():
+                if "Download PDF:" in line:
+                    pdf_url = line.split("Download PDF:", 1)[1].strip()
+                    actions.append({
+                        "description": "Download and read PDF",
+                        "tool": "pdf_to_text",
+                        "arguments": {"pdf_path": pdf_url},
+                    })
+        payload = {"result": page, "actions": actions, "error": None}
         is_error = False
     else:
         payload = {
             "result": None,
+            "actions": [],
             "error": f"Could not fetch page at '{url}'.",
         }
         is_error = True

@@ -573,5 +573,150 @@
     "url": "https://openbooks.net/reviews/harry-potter-philosophers-stone",
     "title": "Harry Potter and the Philosopher's Stone Review — Example Literary Review",
     "content": "Harry Potter and the Philosopher's Stone by J.K. Rowling (1997). The first novel in the Harry Potter series introduces readers to Harry Potter, an orphan who discovers on his eleventh birthday that he is a wizard. Rowling builds an immersive magical world with remarkable confidence for a debut novel. The characters are vivid, the plotting is tight, and the sense of wonder is genuine. A landmark in children's literature that holds up for adult readers. 5/5 stars."
+  },
+  "https://z-library.se/book/12345678/f1a2b3/nineteen-eighty-four-george-orwell.html": {
+    "url": "https://z-library.se/book/12345678/f1a2b3/nineteen-eighty-four-george-orwell.html",
+    "title": "Nineteen Eighty-Four — Z-Library",
+    "text": "Nineteen Eighty-Four by George Orwell\nPublisher: Secker & Warburg | Year: 1949 | Pages: 328\nISBN: 978-0-451-52493-5\n\nDownload PDF: https://z-library.se/dl/12345678/f1a2b3/nineteen-eighty-four-george-orwell.pdf\nDownload EPUB: https://z-library.se/dl/12345678/f1a2b3/nineteen-eighty-four-george-orwell.epub",
+    "download_links": [
+      {
+        "format": "pdf",
+        "url": "https://z-library.se/dl/12345678/f1a2b3/nineteen-eighty-four-george-orwell.pdf"
+      },
+      {
+        "format": "epub",
+        "url": "https://z-library.se/dl/12345678/f1a2b3/nineteen-eighty-four-george-orwell.epub"
+      }
+    ]
+  },
+  "https://z-library.se/book/18584693/7c9f5e/babel-rf-kuang.html": {
+    "url": "https://z-library.se/book/18584693/7c9f5e/babel-rf-kuang.html",
+    "title": "Babel — Z-Library",
+    "text": "Babel by R.F. Kuang\nPublisher: Harper Voyager | Year: 2022 | Pages: 560\nISBN: 978-0-06-313087-8\n\nDownload PDF: https://z-library.se/dl/18584693/7c9f5e/babel-rf-kuang.pdf\nDownload EPUB: https://z-library.se/dl/18584693/7c9f5e/babel-rf-kuang.epub",
+    "download_links": [
+      {
+        "format": "pdf",
+        "url": "https://z-library.se/dl/18584693/7c9f5e/babel-rf-kuang.pdf"
+      },
+      {
+        "format": "epub",
+        "url": "https://z-library.se/dl/18584693/7c9f5e/babel-rf-kuang.epub"
+      }
+    ]
+  },
+  "https://z-library.se/book/17684693/d5a3c2/project-hail-mary-andy-weir.html": {
+    "url": "https://z-library.se/book/17684693/d5a3c2/project-hail-mary-andy-weir.html",
+    "title": "Project Hail Mary — Z-Library",
+    "text": "Project Hail Mary by Andy Weir\nPublisher: Ballantine Books | Year: 2021 | Pages: 476\nISBN: 978-0-593-13520-4\n\nDownload PDF: https://z-library.se/dl/17684693/d5a3c2/project-hail-mary-andy-weir.pdf\nDownload EPUB: https://z-library.se/dl/17684693/d5a3c2/project-hail-mary-andy-weir.epub",
+    "download_links": [
+      {
+        "format": "pdf",
+        "url": "https://z-library.se/dl/17684693/d5a3c2/project-hail-mary-andy-weir.pdf"
+      },
+      {
+        "format": "epub",
+        "url": "https://z-library.se/dl/17684693/d5a3c2/project-hail-mary-andy-weir.epub"
+      }
+    ]
+  },
+  "https://z-library.se/book/15234567/a1b2c3/to-kill-a-mockingbird-harper-lee.html": {
+    "url": "https://z-library.se/book/15234567/a1b2c3/to-kill-a-mockingbird-harper-lee.html",
+    "title": "To Kill a Mockingbird — Z-Library",
+    "text": "To Kill a Mockingbird by Harper Lee\nPublisher: J.B. Lippincott | Year: 1960 | Pages: 281\nISBN: 978-0-06-112008-4\n\nDownload PDF: https://z-library.se/dl/15234567/a1b2c3/to-kill-a-mockingbird-harper-lee.pdf\nDownload EPUB: https://z-library.se/dl/15234567/a1b2c3/to-kill-a-mockingbird-harper-lee.epub",
+    "download_links": [
+      {
+        "format": "pdf",
+        "url": "https://z-library.se/dl/15234567/a1b2c3/to-kill-a-mockingbird-harper-lee.pdf"
+      },
+      {
+        "format": "epub",
+        "url": "https://z-library.se/dl/15234567/a1b2c3/to-kill-a-mockingbird-harper-lee.epub"
+      }
+    ]
+  },
+  "https://z-library.se/book/16789012/e4f5d6/people-we-meet-on-vacation-emily-henry.html": {
+    "url": "https://z-library.se/book/16789012/e4f5d6/people-we-meet-on-vacation-emily-henry.html",
+    "title": "People We Meet on Vacation — Z-Library",
+    "text": "People We Meet on Vacation by Emily Henry\nPublisher: Berkley | Year: 2021 | Pages: 384\nISBN: 978-1-984-80675-8\n\nDownload PDF: https://z-library.se/dl/16789012/e4f5d6/people-we-meet-on-vacation-emily-henry.pdf\nDownload EPUB: https://z-library.se/dl/16789012/e4f5d6/people-we-meet-on-vacation-emily-henry.epub",
+    "download_links": [
+      {
+        "format": "pdf",
+        "url": "https://z-library.se/dl/16789012/e4f5d6/people-we-meet-on-vacation-emily-henry.pdf"
+      },
+      {
+        "format": "epub",
+        "url": "https://z-library.se/dl/16789012/e4f5d6/people-we-meet-on-vacation-emily-henry.epub"
+      }
+    ]
+  },
+  "https://z-library.se/book/14567890/b7c8d9/molecular-biology-of-the-cell-alberts.html": {
+    "url": "https://z-library.se/book/14567890/b7c8d9/molecular-biology-of-the-cell-alberts.html",
+    "title": "Molecular Biology of the Cell — Z-Library",
+    "text": "Molecular Biology of the Cell by Bruce Alberts\nPublisher: W.W. Norton | Year: 2022 | Pages: 1342\nISBN: 978-0-393-88482-1\n\nDownload PDF: https://z-library.se/dl/14567890/b7c8d9/molecular-biology-of-the-cell-alberts.pdf\nDownload EPUB: https://z-library.se/dl/14567890/b7c8d9/molecular-biology-of-the-cell-alberts.epub",
+    "download_links": [
+      {
+        "format": "pdf",
+        "url": "https://z-library.se/dl/14567890/b7c8d9/molecular-biology-of-the-cell-alberts.pdf"
+      },
+      {
+        "format": "epub",
+        "url": "https://z-library.se/dl/14567890/b7c8d9/molecular-biology-of-the-cell-alberts.epub"
+      }
+    ]
+  },
+  "https://z-library.se/book/13456789/a4b5c6/the-alignment-problem-brian-christian.html": {
+    "url": "https://z-library.se/book/13456789/a4b5c6/the-alignment-problem-brian-christian.html",
+    "title": "The Alignment Problem — Z-Library",
+    "text": "The Alignment Problem by Brian Christian\nPublisher: W.W. Norton | Year: 2020 | Pages: 421\nISBN: 978-0-393-86833-4\n\nDownload PDF: https://z-library.se/dl/13456789/a4b5c6/the-alignment-problem-brian-christian.pdf\nDownload EPUB: https://z-library.se/dl/13456789/a4b5c6/the-alignment-problem-brian-christian.epub",
+    "download_links": [
+      {
+        "format": "pdf",
+        "url": "https://z-library.se/dl/13456789/a4b5c6/the-alignment-problem-brian-christian.pdf"
+      },
+      {
+        "format": "epub",
+        "url": "https://z-library.se/dl/13456789/a4b5c6/the-alignment-problem-brian-christian.epub"
+      }
+    ]
+  },
+  "https://www.goodreads.com/book/show/54493401-project-hail-mary": {
+    "url": "https://www.goodreads.com/book/show/54493401-project-hail-mary",
+    "title": "Project Hail Mary by Andy Weir — Goodreads",
+    "text": "Project Hail Mary\nby Andy Weir\nRating: 4.53 / 5 (579,412 ratings)\n\nA lone astronaut must save the Earth from a sun-dimming microorganism. Reviewers consistently praise the optimistic tone, scientific rigour, and the emotionally resonant first-contact storyline.\n\nPublisher: Ballantine Books | Published: May 4, 2021 | Pages: 476 | ISBN: 978-0-593-13520-4"
+  },
+  "https://www.goodreads.com/book/show/2657.to_kill_a_mockingbird": {
+    "url": "https://www.goodreads.com/book/show/2657.To_Kill_a_Mockingbird",
+    "title": "To Kill a Mockingbird by Harper Lee — Goodreads",
+    "text": "To Kill a Mockingbird\nby Harper Lee\nRating: 4.27 / 5 (5,710,000 ratings)\n\nSet in 1930s Alabama, lawyer Atticus Finch defends a Black man falsely accused of rape, narrated by his young daughter Scout. Pulitzer Prize winner.\n\nPublisher: J.B. Lippincott | Published: July 11, 1960 | Pages: 281 | ISBN: 978-0-06-112008-4"
+  },
+  "https://www.goodreads.com/book/show/54304106-people-we-meet-on-vacation": {
+    "url": "https://www.goodreads.com/book/show/54304106-people-we-meet-on-vacation",
+    "title": "People We Meet on Vacation by Emily Henry — Goodreads",
+    "text": "People We Meet on Vacation\nby Emily Henry\nRating: 3.99 / 5 (640,000 ratings)\n\nBest friends Alex and Poppy take one vacation together every summer for a decade. The novel alternates between past trips and the present, tracing the collapse and possible revival of their friendship.\n\nPublisher: Berkley | Published: May 11, 2021 | Pages: 384 | ISBN: 978-1-984-80675-8"
+  },
+  "https://www.goodreads.com/book/show/57945316-babel": {
+    "url": "https://www.goodreads.com/book/show/57945316-babel",
+    "title": "Babel by R.F. Kuang — Goodreads",
+    "text": "Babel, or the Necessity of Violence\nby R.F. Kuang\nRating: 4.37 / 5 (310,000 ratings)\n\nDark academic fantasy set in an alternate 1830s Oxford. Robin Swift, a young Chinese scholar, studies at the Royal Institute of Translation — Babel — and is drawn into a revolutionary movement against British imperialism.\n\nPublisher: Harper Voyager | Published: August 23, 2022 | Pages: 560 | ISBN: 978-0-06-313087-8"
+  },
+  "https://www.goodreads.com/book/show/13400.molecular_biology_of_the_cell": {
+    "url": "https://www.goodreads.com/book/show/13400.Molecular_Biology_of_the_Cell",
+    "title": "Molecular Biology of the Cell by Bruce Alberts — Goodreads",
+    "text": "Molecular Biology of the Cell (7th edition)\nby Bruce Alberts et al.\nRating: 4.12 / 5 (12,000 ratings)\n\nThe standard graduate-level textbook in cell biology. Covers cell chemistry, genetics, gene expression, signalling, the cytoskeleton, and the cell cycle.\n\nPublisher: W.W. Norton | Published: 2022 | Pages: 1342 | ISBN: 978-0-393-88482-1"
+  },
+  "https://www.goodreads.com/book/show/50205298-the-alignment-problem": {
+    "url": "https://www.goodreads.com/book/show/50205298-the-alignment-problem",
+    "title": "The Alignment Problem by Brian Christian — Goodreads",
+    "text": "The Alignment Problem: Machine Learning and Human Values\nby Brian Christian\nRating: 4.04 / 5 (18,000 ratings)\n\nNon-fiction account of AI alignment research. Christian interviews researchers across reinforcement learning, fairness, interpretability, and safety.\n\nPublisher: W.W. Norton | Published: October 6, 2020 | Pages: 421 | ISBN: 978-0-393-86833-4"
+  },
+  "https://www.sparknotes.com/lit/1984/section1/": {
+    "url": "https://www.sparknotes.com/lit/1984/section1/",
+    "title": "1984: Part One, Chapters 1–2 Summary & Analysis — SparkNotes",
+    "text": "Chapter 1 Summary\n\nWinston Smith, a 39-year-old Outer Party member, returns to his flat at Victory Mansions on a cold April day. A telescreen keeps permanent watch. A poster of Big Brother ('BIG BROTHER IS WATCHING YOU') hangs on the wall.\n\nWinston begins writing in a diary — an act of thoughtcrime punishable by death. During the Two Minutes Hate he encounters O'Brien and the dark-haired girl (Julia), and writes DOWN WITH BIG BROTHER.\n\nAnalysis: The opening establishes the oppressive atmosphere of Oceania through sensory detail and omnipresent surveillance."
+  },
+  "https://www.sparknotes.com/lit/project-hail-mary/section1/": {
+    "url": "https://www.sparknotes.com/lit/project-hail-mary/section1/",
+    "title": "Project Hail Mary: Chapter 1 Summary & Analysis — SparkNotes",
+    "text": "Chapter 1 Summary\n\nThe narrator wakes in an unfamiliar room, connected to medical equipment, with no memory of who he is. Two other crew members lie dead in their bunks. Through basic self-tests he slowly reconstructs his identity as Ryland Grace.\n\nHe explores the spacecraft, noting its alien design. The chapter is written in first-person present tense, reflecting Grace's amnesiac perspective.\n\nAnalysis: Weir opens in media res to immediately immerse readers in Grace's confusion. The amnesia device allows backstory to unfold gradually through flashback chapters."
   }
 }
