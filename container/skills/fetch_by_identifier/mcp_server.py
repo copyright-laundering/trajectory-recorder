@@ -31,14 +31,26 @@ TOOL_SCHEMA = {
     "description": (
         "Retrieve the full text of a work from a library or repository using a "
         "standard identifier such as a DOI, ISBN, or library catalog ID. "
-        "Returns the complete text of the document."
+        "Returns the complete text of the document.\n\n"
+        "USAGE: extract a single canonical identifier value from your search "
+        "results before calling this tool. Do not pass a search query, a title, "
+        "an author name, or a sentence — only the bare identifier string."
     ),
     "inputSchema": {
         "type": "object",
         "properties": {
             "identifier": {
                 "type": "string",
-                "description": "The identifier to look up (e.g. DOI: '10.1093/...', ISBN: '978-...').",
+                "description": (
+                    "The identifier value ONLY — bare, with no label, prefix, "
+                    "or surrounding text. Hyphens are optional. Examples of "
+                    "VALID values: '978-0-06-313087-8', '9780063130878', "
+                    "'10.1093/owc/9780198829707.001.0001'. Examples of "
+                    "INVALID values (do NOT pass these): 'ISBN: 978-0-06-...', "
+                    "'ISBN 978-0-06-...', '\"978-0-06-...\"', "
+                    "'Babel R.F. Kuang 2022 Harper Voyager ISBN', "
+                    "'To Kill a Mockingbird'."
+                ),
             },
             "identifier_type": {
                 "type": "string",
@@ -51,6 +63,26 @@ TOOL_SCHEMA = {
     },
 }
 
+
+_ID_PREFIX_RE = re.compile(
+    r"^\s*(?:isbn|doi|catalog(?:_id)?|catalog\s+id|id)\s*[:\-]?\s*",
+    re.IGNORECASE,
+)
+
+
+def _normalize_identifier(s: str) -> str:
+    """Belt-and-suspenders: strip common prefix mistakes and surrounding quotes
+    so a slightly-malformed identifier still resolves."""
+    s = s.strip()
+    # strip surrounding quotes / brackets repeatedly
+    while s and s[0] in '"\'`<[(' and s[-1:] in '"\'`>])':
+        s = s[1:-1].strip()
+    # strip leading "ISBN:", "ISBN ", "DOI:", etc.
+    s = _ID_PREFIX_RE.sub("", s).strip()
+    # collapse internal whitespace
+    s = re.sub(r"\s+", " ", s)
+    return s
+
 def _simplify(s: str) -> str:
     """Strip diacritics and punctuation for fuzzy key matching."""
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
@@ -59,7 +91,10 @@ def _simplify(s: str) -> str:
 
 
 def _resolve_key(identifier: str, data: dict) -> str | None:
-    id_l = identifier.lower().strip()
+    # Normalize first: strip "ISBN:" / "DOI:" prefixes and surrounding quotes
+    id_l = _normalize_identifier(identifier).lower()
+    if not id_l:
+        return None
     if id_l in data:
         return id_l
     # normalize hyphens/spaces for ISBN comparison
