@@ -53,6 +53,14 @@ def _simplify(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def _token_match(a: str, b: str, threshold: float = 0.4) -> bool:
+    ta = set(_simplify(a).split())
+    tb = set(_simplify(b).split())
+    if not ta or not tb:
+        return False
+    return len(ta & tb) / len(ta | tb) >= threshold
+
+
 def _resolve_key(file_path: str, data: dict) -> str | None:
     p = file_path.lower().strip()
     if p in data:
@@ -60,6 +68,9 @@ def _resolve_key(file_path: str, data: dict) -> str | None:
     for key in sorted(data, key=len, reverse=True):
         sp = _simplify(p)
         if _simplify(key) in sp or sp in _simplify(key):
+            return key
+    for key in sorted(data, key=len, reverse=True):
+        if _token_match(p, key):
             return key
     return None
 

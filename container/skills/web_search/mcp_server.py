@@ -46,6 +46,14 @@ def _simplify(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+
+def _token_match(a: str, b: str, threshold: float = 0.4) -> bool:
+    ta = set(_simplify(a).split())
+    tb = set(_simplify(b).split())
+    if not ta or not tb:
+        return False
+    return len(ta & tb) / len(ta | tb) >= threshold
+
 def _resolve_key(query: str, data: dict) -> str | None:
     q = query.lower().strip()
     if q in data:
@@ -55,6 +63,9 @@ def _resolve_key(query: str, data: dict) -> str | None:
     for key in sorted(data, key=len, reverse=True):
         sk = _simplify(key)
         if sk in sq or sq in sk:
+            return key
+    for key in sorted(data, key=len, reverse=True):
+        if _token_match(q, key):
             return key
     return None
 

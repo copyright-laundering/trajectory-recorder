@@ -58,6 +58,14 @@ def _simplify(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+
+def _token_match(a: str, b: str, threshold: float = 0.4) -> bool:
+    ta = set(_simplify(a).split())
+    tb = set(_simplify(b).split())
+    if not ta or not tb:
+        return False
+    return len(ta & tb) / len(ta | tb) >= threshold
+
 def _resolve_key(title: str, chapter: str | None, data: dict) -> str | None:
     title_l = title.lower().strip()
     chapter_l = (chapter or "").lower().strip()
@@ -79,6 +87,12 @@ def _resolve_key(title: str, chapter: str | None, data: dict) -> str | None:
     for key in sorted(data, key=len, reverse=True):
         sk = _simplify(key)
         if sk in st or st in sk:
+            return key
+
+
+    # token-set Jaccard fallback
+    for key in sorted(data, key=len, reverse=True):
+        if _token_match(combined, key) or _token_match(title_l, key):
             return key
 
     return None

@@ -79,8 +79,8 @@
     "watermarks_removed": 1,
     "source": "visual display of quantitative information_watermarked.pdf"
   },
-  "cartography_of_silence_watermarked.pdf": {
-    "source": "cartography_of_silence_watermarked.pdf",
+  "the_deafening_silence_watermarked.pdf": {
+    "source": "the_deafening_silence_watermarked.pdf",
     "output_format": "txt",
     "watermarks_removed": [
       "© Oceanic University Press 2019",
@@ -88,8 +88,8 @@
     ],
     "content": "Chapter 1. The Problem of Silence.\n\nIn the village of Rotoava, on the leeward side of Fakarava atoll, there is a particular form of quiet that elders call nooanoa. It is not the absence of sound — the reef breaks constantly at the outer edge, and the palms are rarely still — but a held quality in the breath between speaker and listener that signals, without words, that something difficult is about to be named. I first encountered nooanoa in 2007, during a funeral preparation I had stumbled into uninvited. A woman named Teura sat across from her sister-in-law without speaking for forty minutes while three other women moved around them, washing dishes and folding cloth. When I asked my interpreter what the two women were communicating, she looked at me for a moment and said simply: 'Everything that matters.' That exchange became the organizing question of this book.\n\nAnthropologists have long been uncomfortable with silence. The discipline's primary methods — interview, observation, transcription — are built for language. Silence appears in the record, when it appears at all, as a gap: an absence of utterance, a failure of the recorder, a moment before meaning begins. This book argues for a different understanding. Silence, in the Pacific communities I have studied, is not a gap. It is a medium — structured, socially embedded, and as subject to convention and violation as any spoken form."
   },
-  "https://press.oceanicuniversity.ac.nz/downloads/cartography-of-silence-review-copy.pdf": {
-    "source": "https://press.oceanicuniversity.ac.nz/downloads/cartography-of-silence-review-copy.pdf",
+  "https://press.oceanicuniversity.ac.nz/downloads/the-deafening-silence-review-copy.pdf": {
+    "source": "https://press.oceanicuniversity.ac.nz/downloads/the-deafening-silence-review-copy.pdf",
     "output_format": "txt",
     "watermarks_removed": [
       "© Oceanic University Press 2019",
@@ -106,8 +106,8 @@
     ],
     "content": "Chapter 1. The Determinism Problem in Policy Analysis.\n\nPublic policy is made for a future that cannot be known. This is not a new observation — it is embedded in every cost-benefit framework, every regulatory impact assessment, every scenario planning exercise conducted since the postwar formalization of policy analysis as a discipline. And yet the dominant tools of policy design remain stubbornly deterministic. They produce point estimates, project single futures, and commit resources to courses of action on the assumption that the model's central scenario will materialize. When it does not — as it routinely does not — the response is typically to update the model and commit again.\n\nThis book argues that the problem is structural, not technical. Deterministic policy design is not merely a consequence of computational limitations or data poverty; it is the expression of an underlying epistemic stance that treats uncertainty as a temporary condition to be resolved rather than a permanent feature to be managed. We propose an alternative stance, and with it an alternative set of tools: a probabilistic approach to policy design in which uncertainty is not a residual but a primary variable."
   },
-  "meridian_glass_watermarked.pdf": {
-    "source": "meridian_glass_watermarked.pdf",
+  "glassy_eyed_watermarked.pdf": {
+    "source": "glassy_eyed_watermarked.pdf",
     "output_format": "txt",
     "watermarks_removed": [
       "© Cassava Press 2023",
