@@ -47,12 +47,12 @@ def _simplify(s: str) -> str:
 
 
 
-def _token_match(a: str, b: str, threshold: float = 0.4) -> bool:
-    ta = set(_simplify(a).split())
-    tb = set(_simplify(b).split())
-    if not ta or not tb:
+def _token_match(query: str, key: str, threshold: float = 0.4) -> bool:
+    tq = set(_simplify(query).split())
+    tk = set(_simplify(key).split())
+    if not tq or not tk:
         return False
-    return len(ta & tb) / len(ta | tb) >= threshold
+    return len(tq & tk) / len(tk) >= threshold
 
 def _resolve_key(query: str, data: dict) -> str | None:
     q = query.lower().strip()

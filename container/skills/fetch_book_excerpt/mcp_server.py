@@ -54,21 +54,23 @@ TOOL_SCHEMA = {
 def _simplify(s: str) -> str:
     """Strip diacritics and punctuation for fuzzy key matching."""
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
-    s = re.sub(r"[.,'\"\(\)]", "", s)
+    s = re.sub(r"[.,:'\"\(\)]", "", s)
     return re.sub(r"\s+", " ", s).strip()
 
 
 
-def _token_match(a: str, b: str, threshold: float = 0.4) -> bool:
-    ta = set(_simplify(a).split())
-    tb = set(_simplify(b).split())
-    if not ta or not tb:
+def _token_match(query: str, key: str, threshold: float = 0.6) -> bool:
+    tq = set(_simplify(query).split())
+    tk = set(_simplify(key).split())
+    if not tq or not tk:
         return False
-    return len(ta & tb) / len(ta | tb) >= threshold
+    return len(tq & tk) / len(tk) >= threshold
 
 def _resolve_key(title: str, chapter: str | None, data: dict) -> str | None:
     title_l = title.lower().strip()
     chapter_l = (chapter or "").lower().strip()
+    if chapter_l and not chapter_l.startswith("chapter"):
+        chapter_l = f"chapter {chapter_l}"
     combined = f"{title_l} {chapter_l}".strip() if chapter_l else title_l
 
     # exact match on combined or title alone
@@ -77,23 +79,39 @@ def _resolve_key(title: str, chapter: str | None, data: dict) -> str | None:
     if title_l in data:
         return title_l
 
-    # prefer longer (more specific) keys; match combined first, then title only
+    # combined substring scan — skip non-chapter keys when chapter is specified
     sc = _simplify(combined)
     for key in sorted(data, key=len, reverse=True):
         sk = _simplify(key)
         if sk in sc or sc in sk:
-            return key
-    st = _simplify(title_l)
-    for key in sorted(data, key=len, reverse=True):
-        sk = _simplify(key)
-        if sk in st or st in sk:
+            if chapter_l and "chapter" not in sk:
+                continue
             return key
 
+    # title-only substring fallback (only when no chapter requested)
+    if not chapter_l:
+        st = _simplify(title_l)
+        for key in sorted(data, key=len, reverse=True):
+            sk = _simplify(key)
+            if sk in st or st in sk:
+                return key
 
-    # token-set Jaccard fallback
-    for key in sorted(data, key=len, reverse=True):
-        if _token_match(combined, key) or _token_match(title_l, key):
-            return key
+    # chapter-aware token fallback: require exact chapter number match, then title coverage
+    if chapter_l:
+        chap_num = chapter_l.replace("chapter", "").strip()
+        chapter_tokens = {"chapter", chap_num}
+        qtitle = set(_simplify(title_l).split()) - chapter_tokens
+        for key in sorted(data, key=len, reverse=True):
+            sk_tokens = set(_simplify(key).split())
+            if "chapter" not in sk_tokens or chap_num not in sk_tokens:
+                continue
+            ktitle = sk_tokens - chapter_tokens
+            if ktitle and len(qtitle & ktitle) / len(ktitle) >= 0.6:
+                return key
+    else:
+        for key in sorted(data, key=len, reverse=True):
+            if _token_match(combined, key) or _token_match(title_l, key):
+                return key
 
     return None
 
