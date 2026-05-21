@@ -1,3 +1,4 @@
+Demo: https://www.canva.com/design/DAHIWyWo70w/1KUAdfY2ONvjWroraaINng/edit?ui=eyJBIjp7IkIiOnsiQiI6dHJ1ZX19LCJFIjp7IkE_IjoiQSIsIkEiOiIiLCJDIjp0cnVlfSwiRyI6eyJCIjp0cnVlfX0
 # trajectory-recorder
 
 A **resettable agent evaluation pipeline** for [OpenClaw](https://openclaw.ai).
